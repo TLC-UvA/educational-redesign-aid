@@ -10,7 +10,7 @@
 /**
  * The font of the website.
  */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,700&display=swap");
 /**
  * The main classes for the application.
  */
@@ -20,7 +20,9 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-a, a:hover, a:active {
+a,
+a:hover,
+a:active {
   text-decoration: none;
 }
 
@@ -30,7 +32,7 @@ a, a:hover, a:active {
   display: grid;
   -ms-grid-rows: 75px auto;
       grid-template-rows: 75px auto;
-      grid-template-areas: "header" "main";
+      grid-template-areas: "header" "main";
   min-height: 100vh;
   max-width: 100%;
 }
@@ -100,7 +102,8 @@ main {
  * The heading of a page.
  */
 .heading {
-  padding: 0 180px 54px;
+  position: relative;
+  padding: 120px 180px 54px;
   color: white;
   font-family: 'Open Sans', sans-serif;
 }
@@ -114,10 +117,36 @@ main {
   font-weight: bold;
 }
 
+.heading__title--big {
+  font-size: 50px;
+  line-height: 68px;
+  margin-bottom: 8px;
+}
+
 .heading__subtitle {
   font-size: 18px;
   font-weight: normal;
   width: 655px;
+}
+
+.heading__subtitle--wider {
+  width: 740px;
+}
+
+.heading__subtitle > .accent {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.heading__overline {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.banner {
+  background-position: center;
+  background-size: cover;
 }
 
 /**
@@ -129,8 +158,38 @@ main {
   color: #333333;
 }
 
+.block--larger {
+  padding: 57px 180px 106px;
+}
+
+.block--white {
+  background-color: #ffffff;
+}
+
 .block__header {
   margin-bottom: 44px;
+}
+
+.block__header--with-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 26px;
+}
+
+.block__header--link {
+  color: #ff8686;
+}
+
+.block__header-icon {
+  height: 40px;
+  margin-right: 16px;
 }
 
 .block__title {
@@ -151,21 +210,45 @@ main {
   gap: 40px;
 }
 
+.block__information {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 275px;
+      grid-template-columns: auto 275px;
+  gap: 40px;
+}
+
+.block__information-section {
+  color: #333333;
+}
+
 /**
  * A card element.
  */
+.cards {
+  display: -ms-grid;
+  display: grid;
+  gap: 20px;
+}
+
 .card {
   background-color: #ffffff;
   border-radius: 4px;
+  padding: 36px 40px 44px;
 }
 
 .card--shadow {
   -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+  border: solid 1px #eaeced;
 }
 
 .card--outlined {
   border: solid 1px #008bc1;
+}
+
+.card--filled {
+  background-color: #d1e3eb;
 }
 
 .card--showcase {
@@ -185,6 +268,25 @@ main {
   width: 100%;
   height: 150px;
   color: #008bc1;
+  padding: initial;
+}
+
+.card--bottom-space {
+  margin-bottom: 58px;
+}
+
+.card--single-line {
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card--medium {
+  padding: 33px 40px;
 }
 
 .card__icon {
@@ -206,5 +308,65 @@ main {
 
 .card__subtitle--small {
   font-size: 12px;
+}
+
+.card__main {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+
+.card__main:first-child {
+  margin-top: initial;
+}
+
+.card__text {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.card__text--light {
+  font-weight: 300;
+}
+
+.card__list {
+  padding-left: 18px;
+}
+
+.card__list--space {
+  margin-top: 12px;
+}
+
+.card__list > li:not(:first-child) {
+  margin-top: 12px;
+}
+
+.card__action {
+  color: #008bc1;
+  font-size: 14px;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.card__action--right > .card__action--icon {
+  margin-left: 10px;
+}
+
+.card__action--left > .card__action--icon {
+  margin-right: 12px;
+}
+
+.card__action--icon {
+  width: 18px;
+}
+
+.card:not(.card--single-line) > .card__action {
+  margin-top: 8px;
 }
 /*# sourceMappingURL=app.css.map */

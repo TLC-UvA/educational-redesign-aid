@@ -5,6 +5,8 @@ $primary: #008bc1;
 $secondary: #333333;
 $white: #ffffff;
 $grey: #edf1f3;
+$action: #ff8686;
+$light-primary: #d1e3eb;
 
 /**
  * Extended stuff on the colors.
@@ -23,7 +25,7 @@ $border-radius: 4px;
 /**
  * The font of the website.
  */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,700&display=swap');
 
 /**
  * The main classes for the application.
@@ -34,7 +36,9 @@ $border-radius: 4px;
   font-family: 'Open Sans', sans-serif;
 }
 
-a, a:hover, a:active {
+a,
+a:hover,
+a:active {
   text-decoration: none;
 }
 
@@ -99,7 +103,8 @@ main {
  * The heading of a page.
  */
 .heading {
-  padding: 0 $padding 54px;
+  position: relative;
+  padding: 120px $padding 54px;
   color: white;
   font-family: 'Open Sans', sans-serif;
 
@@ -110,13 +115,39 @@ main {
   &__title {
     font-size: 40px;
     font-weight: bold;
+
+    &--big {
+      font-size: 50px;
+      line-height: 68px;
+      margin-bottom: 8px;
+    }
   }
 
   &__subtitle {
     font-size: 18px;
     font-weight: normal;
     width: 655px;
+
+    &--wider {
+      width: 740px;
+    }
   }
+
+  &__subtitle > .accent {
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  &__overline {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}
+
+.banner {
+  background-position: center;
+  background-size: cover;
 }
 
 /**
@@ -127,8 +158,32 @@ main {
   padding: 42px $padding 66px;
   color: $secondary;
 
+  &--larger {
+    padding: 57px $padding 106px;
+  }
+
+  &--white {
+    background-color: $white;
+  }
+
   &__header {
     margin-bottom: 44px;
+
+    &--with-image {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+      margin-bottom: 26px;
+    }
+
+    &--link {
+      color: $action;
+    }
+  }
+
+  &__header-icon {
+    height: 40px;
+    margin-right: 16px;
   }
 
   &__title {
@@ -146,21 +201,41 @@ main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 40px;
   }
+
+  &__information {
+    display: grid;
+    grid-template-columns: auto 275px;
+    gap: 40px;
+
+    &-section {
+      color: $secondary;
+    }
+  }
 }
 
 /**
  * A card element.
  */
+.cards {
+  display: grid;
+  gap: 20px;
+}
 .card {
   background-color: $white;
   border-radius: $border-radius;
+  padding: 36px 40px 44px;
 
   &--shadow {
     box-shadow: $box-shadow;
+    border: solid 1px #eaeced;
   }
 
   &--outlined {
     border: solid 1px $primary;
+  }
+
+  &--filled {
+    background-color: $light-primary;
   }
 
   &--showcase {
@@ -171,6 +246,21 @@ main {
     width: 100%;
     height: 150px;
     color: $primary;
+    padding: initial;
+  }
+
+  &--bottom-space {
+    margin-bottom: 58px;
+  }
+
+  &--single-line {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &--medium {
+    padding: 33px 40px;
   }
 
   &__icon {
@@ -192,5 +282,61 @@ main {
     &--small {
       font-size: 12px;
     }
+  }
+
+  &__main {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 24px;
+
+    &:first-child {
+      margin-top: initial;
+    }
+  }
+
+  &__text {
+    font-size: 14px;
+    font-weight: normal;
+
+    &--light {
+      font-weight: 300;
+    }
+  }
+
+  &__list {
+    padding-left: 18px;
+
+    &--space {
+      margin-top: 12px;
+    }
+  }
+
+  &__list > li:not(:first-child) {
+    margin-top: 12px;
+  }
+
+  &__action {
+    color: $primary;
+    font-size: 14px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    &--right > &--icon {
+      margin-left: 10px;
+    }
+
+    &--left > &--icon {
+      margin-right: 12px;
+    }
+
+    &--icon {
+      width: 18px;
+    }
+  }
+
+  &:not(&--single-line) > &__action {
+    margin-top: 8px;
   }
 }
