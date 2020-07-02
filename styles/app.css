@@ -93,7 +93,7 @@ main {
 }
 
 .main--background {
-  background: url("/assets/images/bg-landing-temporary.jpg");
+  background: url("../assets/images/bg-landing-temporary.jpg");
   background-size: cover;
   background-position: center;
 }
