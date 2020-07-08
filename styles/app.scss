@@ -17,10 +17,12 @@ $box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
 /**
  * Variables for the outlining of the elements.
  */
-$header: 75px;
+$header: 70px;
+$header-link: 102px;
 $header-padding: 17px 33px;
-$padding: 180px;
+$padding: 16px;
 $border-radius: 4px;
+$width: 1180px;
 
 /**
  * The font of the website.
@@ -36,10 +38,20 @@ $border-radius: 4px;
   font-family: 'Open Sans', sans-serif;
 }
 
+html {
+  scroll-padding-top: $header-link;
+}
+
 a,
 a:hover,
 a:active {
   text-decoration: none;
+}
+
+@media (max-width: $width) {
+  .hide-on-small {
+    display: none;
+  }
 }
 
 .app {
@@ -54,6 +66,10 @@ a:active {
 }
 
 header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: $box-shadow;
   grid-area: header;
   max-height: $header;
   background-color: $white;
@@ -103,6 +119,8 @@ main {
  * The heading of a page.
  */
 .heading {
+  max-width: $width;
+  margin: 0 auto;
   position: relative;
   padding: 120px $padding 54px;
   color: white;
@@ -133,7 +151,7 @@ main {
     }
   }
 
-  &__subtitle > .accent {
+  &__subtitle>.accent {
     font-weight: bold;
     font-style: italic;
   }
@@ -159,14 +177,21 @@ main {
   color: $secondary;
 
   &--larger {
-    padding: 57px $padding 106px;
+    padding: 58px $padding 106px;
   }
 
   &--white {
     background-color: $white;
   }
 
+  &--inner {
+    max-width: $width;
+    margin: 0 auto;
+  }
+
   &__header {
+    max-width: $width;
+    margin: 0 auto;
     margin-bottom: 44px;
 
     &--with-image {
@@ -189,6 +214,10 @@ main {
   &__title {
     font-size: 24px;
     font-weight: bold;
+
+    &--space {
+      height: 52px;
+    }
   }
 
   &__subtitle {
@@ -196,7 +225,15 @@ main {
     font-weight: normal;
   }
 
+  &__paragraph {
+    font-size: 14px;
+    font-weight: 300;
+    width: 755px;
+  }
+
   &__cards {
+    max-width: $width;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 40px;
@@ -211,6 +248,12 @@ main {
       color: $secondary;
     }
   }
+
+  &__content {
+    max-width: $width;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
 }
 
 /**
@@ -220,6 +263,7 @@ main {
   display: grid;
   gap: 20px;
 }
+
 .card {
   background-color: $white;
   border-radius: $border-radius;
@@ -228,6 +272,10 @@ main {
   &--shadow {
     box-shadow: $box-shadow;
     border: solid 1px #eaeced;
+
+    &-border {
+      box-shadow: none;
+    }
   }
 
   &--outlined {
@@ -249,6 +297,10 @@ main {
     padding: initial;
   }
 
+  &--showcase:hover {
+    border: solid 1px $primary;
+  }
+
   &--bottom-space {
     margin-bottom: 58px;
   }
@@ -261,6 +313,12 @@ main {
 
   &--medium {
     padding: 33px 40px;
+  }
+
+  &--menu {
+    position: sticky;
+    top: 128px;
+    padding: 24px 32px;
   }
 
   &__icon {
@@ -311,7 +369,7 @@ main {
     }
   }
 
-  &__list > li:not(:first-child) {
+  &__list>li:not(:first-child) {
     margin-top: 12px;
   }
 
@@ -323,20 +381,138 @@ main {
     align-items: center;
     cursor: pointer;
 
-    &--right > &--icon {
+    &-text {
+      font-size: 16px;
+    }
+
+    &--right>&--icon {
       margin-left: 10px;
     }
 
-    &--left > &--icon {
+    &--left>&--icon {
       margin-right: 12px;
+    }
+
+    &--left>&--medium {
+      margin-right: 16px;
     }
 
     &--icon {
       width: 18px;
     }
+
+    &--medium {
+      width: 32px;
+    }
+
+    &--menu {
+      margin-bottom: 16px;
+    }
   }
 
-  &:not(&--single-line) > &__action {
+  &__menu-title {
+    color: $secondary;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+
+  &:not(&--single-line)>&__action {
     margin-top: 8px;
   }
+}
+
+/**
+ * Toggle switch.
+ */
+.switch-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 36px;
+  overflow: hidden;
+  border: 1px solid $primary;
+  width: fit-content;
+  border-radius: $border-radius;
+
+  &__option {
+    display: flex;
+    width: 50%;
+  }
+}
+
+.switch-field input {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  overflow: hidden;
+}
+
+.switch-field label {
+  background-color: $grey;
+  color: $primary;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 39px 14px 54px;
+  width: fit-content;
+  transition: all 0.1s ease-in-out;
+}
+
+.switch-field input:checked+label {
+  padding: 14px 30px 14px 54px;
+  width: fit-content;
+}
+
+.switch-field label:hover,
+.switch-field input {
+  cursor: pointer;
+}
+
+.switch-field input:checked,
+.switch-field input:checked+label {
+  background-color: $primary;
+  color: $white;
+  font-weight: bold;
+  box-shadow: none;
+}
+
+.switch-field input:checked+label,
+.switch-field input:not(:checked)+label {
+  position: relative;
+}
+
+.switch-field input:checked+label:before,
+.switch-field input:not(:checked)+label:before {
+  content: '';
+  left: 16px;
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: $white;
+}
+
+.switch-field input:checked+label:after,
+.switch-field input:not(:checked)+label:after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: $primary;
+  position: absolute;
+  top: 19px;
+  left: 21px;
+  border-radius: 100%;
+}
+
+.switch-field input:not(:checked)+label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.switch-field input:checked+label:after {
+  opacity: 1;
+  transform: scale(1);
 }
