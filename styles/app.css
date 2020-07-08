@@ -123,7 +123,7 @@ main {
   max-width: 1180px;
   margin: 0 auto;
   position: relative;
-  padding: 120px 16px 54px;
+  padding: 120px 40px 54px;
   color: white;
   font-family: 'Open Sans', sans-serif;
 }
@@ -174,12 +174,12 @@ main {
  */
 .block {
   background-color: #edf1f3;
-  padding: 42px 16px 66px;
+  padding: 42px 40px 66px;
   color: #333333;
 }
 
 .block--larger {
-  padding: 58px 16px 106px;
+  padding: 58px 40px 106px;
 }
 
 .block--white {
@@ -211,6 +211,10 @@ main {
 }
 
 .block__header--link {
+  color: #ff8686;
+}
+
+.block__header--link:visited {
   color: #ff8686;
 }
 
@@ -265,6 +269,21 @@ main {
   max-width: 1180px;
   margin: 0 auto;
   margin-top: 40px;
+}
+
+.block__image {
+  background-color: #edf1f3;
+  max-width: 1180px;
+  height: 517px;
+  margin-bottom: 15px;
+}
+
+.block__links {
+  font-size: 14px;
+}
+
+.block__links > a {
+  color: #008bc1;
 }
 
 /**
@@ -466,9 +485,6 @@ main {
  * Toggle switch.
  */
 .switch-field {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -476,20 +492,24 @@ main {
       -ms-flex-align: center;
           align-items: center;
   height: 50px;
-  margin-bottom: 36px;
+  margin-bottom: 25px;
   overflow: hidden;
   border: 1px solid #008bc1;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 430px;
   border-radius: 4px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
 }
 
 .switch-field__option {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: #edf1f3;
 }
 
 .switch-field input {
@@ -506,19 +526,6 @@ main {
   color: #008bc1;
   font-size: 16px;
   text-align: center;
-  padding: 14px 39px 14px 54px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  -webkit-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out;
-}
-
-.switch-field input:checked + label {
-  padding: 14px 30px 14px 54px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
 }
 
 .switch-field label:hover,
@@ -538,12 +545,18 @@ main {
 .switch-field input:checked + label,
 .switch-field input:not(:checked) + label {
   position: relative;
+  width: 100%;
+  height: 100%;
+  line-height: 50px;
 }
 
 .switch-field input:checked + label:before,
 .switch-field input:not(:checked) + label:before {
   content: '';
-  left: 16px;
+  left: 14px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   position: absolute;
   width: 22px;
   height: 22px;
@@ -559,7 +572,7 @@ main {
   background: #008bc1;
   position: absolute;
   top: 19px;
-  left: 21px;
+  left: 19px;
   border-radius: 100%;
 }
 
