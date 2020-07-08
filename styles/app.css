@@ -26,8 +26,10 @@ html {
 
 a,
 a:hover,
-a:active {
+a:active,
+a:visited {
   text-decoration: none;
+  color: #333333;
 }
 
 @media (max-width: 1180px) {
@@ -47,7 +49,7 @@ a:active {
   max-width: 100%;
 }
 
-header {
+.header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -319,6 +321,10 @@ main {
   padding: initial;
 }
 
+.card--showcase:visited {
+  color: #008bc1;
+}
+
 .card--showcase:hover {
   border: solid 1px #008bc1;
 }
@@ -411,6 +417,10 @@ main {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+}
+
+.card__action:visited {
+  color: #008bc1;
 }
 
 .card__action-text {

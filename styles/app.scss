@@ -44,8 +44,10 @@ html {
 
 a,
 a:hover,
-a:active {
+a:active,
+a:visited {
   text-decoration: none;
+  color: $secondary;
 }
 
 @media (max-width: $width) {
@@ -65,7 +67,7 @@ a:active {
   max-width: 100%;
 }
 
-header {
+.header {
   position: sticky;
   top: 0;
   z-index: 10;
@@ -295,6 +297,10 @@ main {
     height: 150px;
     color: $primary;
     padding: initial;
+
+    &:visited {
+      color: $primary;
+    }
   }
 
   &--showcase:hover {
@@ -380,6 +386,10 @@ main {
     display: flex;
     align-items: center;
     cursor: pointer;
+
+    &:visited {
+      color: $primary;
+    }
 
     &-text {
       font-size: 16px;
