@@ -64,15 +64,14 @@ a:visited {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 17px 33px;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  padding: 14px 38px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .header__logo {
   height: 100%;
-  margin-right: 5px;
 }
 
 .header__title {
@@ -102,6 +101,21 @@ a:visited {
   font-size: 14px;
 }
 
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__menu--icon {
+  height: 11px;
+  margin-right: 2px;
+}
+
 main {
   position: relative;
   -ms-grid-row: 2;
@@ -129,7 +143,7 @@ main {
 }
 
 .heading__landing {
-  padding-top: 274px;
+  padding-top: 14%;
 }
 
 .heading__title {
@@ -320,6 +334,10 @@ main {
   background-color: #d1e3eb;
 }
 
+.card--no-padding {
+  padding: 0;
+}
+
 .card--showcase {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -340,7 +358,7 @@ main {
   padding: initial;
 }
 
-.card--showcase:visited {
+.card--showcase:hover, .card--showcase:active, .card--showcase:visited {
   color: #008bc1;
 }
 
@@ -373,6 +391,29 @@ main {
   padding: 24px 32px;
 }
 
+.card--expand {
+  display: none;
+}
+
+.card--expanded .card--expand {
+  display: initial;
+}
+
+.card--collaps {
+  display: initial;
+}
+
+.card--expanded .card--collaps {
+  display: none;
+}
+
+.card:not(.card--expanded) .card--shorter {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 .card__icon {
   width: 64px;
   margin-bottom: 10px;
@@ -385,6 +426,11 @@ main {
   text-transform: uppercase;
 }
 
+.card__title--icon {
+  height: 11px;
+  margin-left: 2px;
+}
+
 .card__subtitle {
   font-size: 14px;
   font-weight: normal;
@@ -395,7 +441,7 @@ main {
 }
 
 .card__main {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   margin-top: 24px;
 }
@@ -405,12 +451,20 @@ main {
 }
 
 .card__text {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: normal;
 }
 
 .card__text--light {
   font-weight: 300;
+}
+
+.card__text--link {
+  margin-top: 16px;
+}
+
+.card__text--link > a {
+  color: #008bc1;
 }
 
 .card__list {
@@ -436,6 +490,10 @@ main {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .card__action:visited {
@@ -468,6 +526,16 @@ main {
 
 .card__action--menu {
   margin-bottom: 16px;
+}
+
+.card__expandable {
+  display: none;
+  padding: 25px;
+  padding-top: 0;
+}
+
+.card--expanded .card__expandable {
+  display: block;
 }
 
 .card__menu-title {
@@ -586,5 +654,85 @@ main {
   opacity: 1;
   -webkit-transform: scale(1);
           transform: scale(1);
+}
+
+/**
+ * Dropdown menu.
+ */
+.dropdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 175px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px #ff8686 solid;
+  margin-left: 18px;
+  cursor: pointer;
+}
+
+.dropdown__text {
+  color: #ff8686;
+  font-size: 14px;
+}
+
+.dropdown__icon {
+  height: 11px;
+}
+
+.dropdown__primary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 175px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 14px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.dropdown__options {
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  width: 163px;
+  gap: 4px;
+  top: 64px;
+  background-color: #ffffff;
+  padding: 14px 6px;
+  border-radius: 4px;
+  border: 1px #ff8686 solid;
+  -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+  visibility: hidden;
+  z-index: 10;
+}
+
+.dropdown__options a {
+  color: #ff8686;
+  padding: 8px 6px 8px 6px;
+  border-radius: 4px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.dropdown__options a:hover {
+  background-color: #ff86862a;
+}
+
+.dropdown--active .dropdown__options {
+  visibility: visible;
 }
 /*# sourceMappingURL=app.css.map */
