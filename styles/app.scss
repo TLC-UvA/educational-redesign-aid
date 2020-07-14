@@ -38,10 +38,6 @@ $width: 1180px;
   font-family: 'Open Sans', sans-serif;
 }
 
-html {
-  scroll-padding-top: $header-link;
-}
-
 a,
 a:hover,
 a:active,
@@ -81,26 +77,6 @@ a:visited {
 
   &__logo {
     height: 100%;
-  }
-
-  &__title {
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  
-    $line-height: 14px;
-  
-    &--primary {
-      line-height: $line-height;
-      font-size: 16px;
-    }
-  
-    &--secondary {
-      line-height: $line-height;
-      font-size: 14px;
-    }
   }
 
   &__menu {
@@ -230,6 +206,8 @@ main {
   &__title {
     font-size: 24px;
     font-weight: bold;
+    padding-top: 100px;
+    margin-top: -100px;
 
     &--space {
       height: 52px;
