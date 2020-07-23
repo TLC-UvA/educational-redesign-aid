@@ -15,11 +15,14 @@
         <img src="../../assets/images/uva-logo.png" alt="uva logo" class="header__logo">
       </a>
       <div class="header__menu">
-        <a href="../../courses/medium.html">
+        <a class="header__button" href="../../courses/medium.html">
           <img src="../../assets/icons/back-arrow.png" alt="tile arrow" class="header__menu--icon">
           <!-- The text to go back to the course size page. -->
-          Medium course size:
+          Medium course
         </a>
+
+        <!-- Dash between the menu items. -->
+        <span>-</span>
 
         <!-- Dropdown menu -->
         <div class="dropdown">
@@ -28,6 +31,9 @@
             <span class="dropdown__text">Lectures</span>
             <img src="../../assets/icons/dropdown-arrow.png" alt="tile arrow" class="dropdown__icon">
           </div>
+
+          <!-- Let this be here to allow outside clicks close the dropdown. -->
+          <div class="dropdown__overlay"></div>
 
           <div class="dropdown__options">
             <!-- The other activity options in this course size. -->
@@ -47,6 +53,7 @@
     <main>
       <!-- The heading which contains the title and subtitle. -->
       <div class="banner" style="background-image: url('../../assets/images/hero-lectures-temporary.jpg');">
+        <img class="banner__logo" src="../../assets/images/teaching-centre-hero.png" alt="Teaching Logo">
         <div class="heading">
           <span class="heading__overline">Medium course: 50-100 students</span>
           <h1 class="heading__title heading__title--big">Lectures</h1>
@@ -180,7 +187,7 @@
               <img src="../../assets/icons/tips.png" alt="tips icon" class="block__header-icon">
               <h2 class="block__title" id="tips">Tips</h2>
             </div>
-            <div class="card card--bottom-space">
+            <div class="card">
               <div class="card__text card__text--light">
                 <ul class="card__list">
                   <li>Tip 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum massa tellus, tristique non quam</li>
@@ -190,28 +197,11 @@
                 </ul>
               </div>
             </div>
-  
-            <!-- More info? -->
-            <div class="block__header block__header--with-image">
-              <img src="../../assets/icons/more-info.png" alt="more info icon" class="block__header-icon">
-              <h2 class="block__title" id="more_info">More info</h2>
-            </div>
-            <div class="card card--medium card--collapsible">
-              <p class="card__text card--shorter">
-                Three sentences of the background content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum massa tellus, tristique non quam at, scelerisque facilisis. rutrum, pharetra urna tincidunt, ultricies nibh. Suspendisse ut sagittis massa. Etiam sit amet viverra arcu, non posuere mauris. Suspendisse rutrum dolor quis quam venenatis commodo vel id nisl. Integer sed velit id nunc fringilla tristique. Duis convallis gravida suscipit. Nulla nec lacus lectus. Curabitur tincidunt justo arcu, eu suscipit metus ullamcorper id. Duis erat turpis, convallis in lobortis eu, gravida in erat. Morbi feugiat et ante
-              </p>
-              <div class="card__action card__action--left">
-                <img src="../../assets/icons/collapse.png" alt="expand section" class="card__action--icon card--expand">
-                <img src="../../assets/icons/expand.png" alt="expand section" class="card__action--icon card--collaps">
-                <span class="card--collaps">Show everything</span>
-                <span class="card--expand">Show less</span>
-              </div>
-            </div>
           </div>
   
           <!-- The menu for the section which also scrolls with us. -->
           <div class="block__information-menu">
-            <div class="card card--menu card--shadow">
+            <div class="card card--menu card--shadow card--border">
               <div class="card__menu-title">Jump to:</div>
               <a href="#what_to_do" class="card__action card__action--menu card__action--left">
                 <img src="../../assets/icons/what-to-do-menu.png" alt="expand section" class="card__action--icon card__action--medium">
@@ -228,10 +218,6 @@
               <a href="#tips" class="card__action card__action--menu card__action--left">
                 <img src="../../assets/icons/tips-menu.png" alt="expand section" class="card__action--icon card__action--medium">
                 <span class="card__action-text">Tips</span>
-              </a>
-              <a href="#more_info" class="card__action card__action--menu card__action--left">
-                <img src="../../assets/icons/more-info-menu.png" alt="expand section" class="card__action--icon card__action--medium">
-                <span class="card__action-text">More info</span>
               </a>
             </div>
           </div>
@@ -254,7 +240,6 @@
               Lectures
               <img src="../../assets/icons/tile-arrow@2x.png" alt="tile arrow" class="card__title--icon">
             </span>
-            <!-- <span class="card__subtitle card__subtitle--small">One sentence explanation</span> -->
           </a>
 
           <a class="card card--shadow card--showcase" href="lectures.html">

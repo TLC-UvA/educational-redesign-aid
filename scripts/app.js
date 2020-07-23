@@ -16,7 +16,7 @@ const dropdown = {
   init() {
     /* Search the dropdowns on the page. */
     this.dropdowns = document.getElementsByClassName('dropdown')
-    
+
     /* Add the listener to each dropdown. */
     for (el of this.dropdowns)
       el.addEventListener('click', this.onClick)
@@ -58,3 +58,54 @@ const collapse = {
 }
 
 collapse.init()
+
+
+/**
+ * SwitchField
+ * -----------------------------------
+ * This switchField component switches between two items.
+ */
+const switchField = {
+  active: 0,
+  switchFields: [],
+  init() {
+    /* Search the switch fields on the page. */
+    this.switchFields = document.getElementsByClassName('switch-field')
+
+    /* Set initial value. */
+    const radio = document.querySelector('input[type="radio"]:checked')
+    this.active = radio.value
+
+    this.setActive(radio)
+
+    /* Add the listener to each switch field. */
+    for (el of this.switchFields)
+      el.addEventListener('click', this.onClick.bind(this))
+  },
+  onClick() {
+    const radio = document.querySelector('input[type="radio"]:checked')
+    const value = radio.value
+
+    /* Check for change. */
+    if (this.active != value) {
+      this.active = value
+      this.setActive(radio)
+    }
+  },
+  setActive(el) {
+    let items = el
+    if (items) {
+      items = items
+        .closest('.switch-field')
+        .nextElementSibling
+        .querySelectorAll('.switch-field__item')
+
+      for (let item of items)
+        item.style.display = 'none'
+
+      items[this.active].style.display = 'block'
+    }
+  }
+}
+
+switchField.init()
