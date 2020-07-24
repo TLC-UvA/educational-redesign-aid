@@ -74,9 +74,11 @@ const switchField = {
 
     /* Set initial value. */
     const radio = document.querySelector('input[type="radio"]:checked')
-    this.active = radio.value
-
-    this.setActive(radio)
+    if (radio) {
+      this.active = radio.value
+  
+      this.setActive(radio)
+    }
 
     /* Add the listener to each switch field. */
     for (el of this.switchFields)
