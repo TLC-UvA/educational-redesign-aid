@@ -452,10 +452,12 @@ main {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  height: 44px;
 }
 
 .card:not(.card--expanded) .card--shorter-one {
   -webkit-line-clamp: 1;
+  height: 24px;
 }
 
 .card__icon {
@@ -494,6 +496,11 @@ main {
   margin-top: initial;
 }
 
+.card__main--bigger {
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .card__text {
   font-size: 15px;
   font-weight: normal;
@@ -511,16 +518,49 @@ main {
   color: #008bc1;
 }
 
+.card__text--inline-link {
+  color: #008bc1;
+}
+
+.card__text--inline-link:hover {
+  color: #008bc1;
+  text-decoration: underline;
+}
+
+.card__text--inline-link:visited, .card__text--inline-link:active {
+  color: #008bc1;
+}
+
+.card__text--underline {
+  text-decoration: underline;
+}
+
+.card__text--margin-top {
+  margin-top: 12px;
+}
+
+.card__text .accent {
+  font-weight: bold;
+}
+
 .card__list {
   padding-left: 18px;
+}
+
+.card__list > li:not(:first-child) {
+  margin-top: 12px;
 }
 
 .card__list--space {
   margin-top: 12px;
 }
 
-.card__list > li:not(:first-child) {
-  margin-top: 12px;
+.card__list--bottom {
+  margin-bottom: 12px;
+}
+
+.card__list--dense > li:not(:first-child) {
+  margin-top: 4px;
 }
 
 .card__action {
@@ -573,7 +613,7 @@ main {
 }
 
 .card__action--margin-left {
-  margin-left: 40px;
+  margin-left: 100px;
 }
 
 .card__expandable {
