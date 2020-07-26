@@ -46,6 +46,10 @@ a:visited {
   color: $secondary;
 }
 
+em {
+  font-weight: 300;
+}
+
 @media (max-width: $width) {
   .hide-on-small {
     display: none;
@@ -388,6 +392,10 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+
+    &--title {
+      max-width: 550px;
+    }
   }
 
   &--padding-small {
@@ -488,7 +496,7 @@ main {
       }
     }
 
-    &--inline-link {
+    & a {
       color: $primary;
 
       &:hover {

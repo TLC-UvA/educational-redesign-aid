@@ -28,6 +28,10 @@ a:visited {
   color: #333333;
 }
 
+em {
+  font-weight: 300;
+}
+
 @media (max-width: 1180px) {
   .hide-on-small {
     display: none;
@@ -416,6 +420,10 @@ main {
           align-items: flex-start;
 }
 
+.card--single-line--title {
+  max-width: 550px;
+}
+
 .card--padding-small {
   padding: 25px;
 }
@@ -518,16 +526,16 @@ main {
   color: #008bc1;
 }
 
-.card__text--inline-link {
+.card__text a {
   color: #008bc1;
 }
 
-.card__text--inline-link:hover {
+.card__text a:hover {
   color: #008bc1;
   text-decoration: underline;
 }
 
-.card__text--inline-link:visited, .card__text--inline-link:active {
+.card__text a:visited, .card__text a:active {
   color: #008bc1;
 }
 
