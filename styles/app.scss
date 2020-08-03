@@ -1,4 +1,10 @@
 /**
+ * Styles for the Keep on Teaching website of the UvA.
+ * ----------------------------
+ * Made by Ivan de Wolf
+ */
+
+/**
  * The colors used on the site.
  */
 $primary: #008bc1;
@@ -325,14 +331,18 @@ main {
   }
 }
 
-/**
- * A card element.
- */
+.author {
+  content: 'Ivan de Wolf';
+}
+
 .cards {
   display: grid;
   gap: 20px;
 }
 
+/**
+ * A card element.
+ */
 .card {
   background-color: $white;
   border-radius: $border-radius;
