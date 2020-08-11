@@ -33,6 +33,14 @@ a:visited {
   color: #333333;
 }
 
+code {
+  font-family: Consolas,"courier new";
+  color: #008bc1;
+  background-color: #edf1f3;
+  padding: 2px;
+  display: inline-block;
+}
+
 @media (max-width: 1180px) {
   .hide-on-small {
     display: none;

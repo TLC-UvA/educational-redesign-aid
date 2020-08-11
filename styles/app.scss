@@ -52,6 +52,14 @@ a:visited {
   color: $secondary;
 }
 
+code {
+  font-family: Consolas,"courier new";
+  color: $primary;
+  background-color: $grey;
+  padding: 2px;
+  display: inline-block;
+}
+
 @media (max-width: $width) {
   .hide-on-small {
     display: none;
