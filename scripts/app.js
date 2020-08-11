@@ -1,8 +1,8 @@
 /**
- * Scripts for the Keep on Teaching website.
+ * Scripts for the Educational Redesign Aid website.
  * 
  * @author Ivan de Wolf
- * @project Keep on Teaching
+ * @project Educational Redesign Aid
  * @version 1.0
  */
 
