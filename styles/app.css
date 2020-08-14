@@ -47,6 +47,42 @@ code {
   }
 }
 
+footer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #333333;
+}
+
+.footer--border {
+  border-top: 1px solid #cddee7;
+}
+
+.footer__content {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.footer__line {
+  margin-bottom: 16px;
+}
+
+.footer__line--title {
+  font-weight: bold;
+}
+
+.footer__line--text {
+  display: inline;
+}
+
+.footer__line--text a {
+  color: #008bc1;
+}
+
+.footer__line--text a:hover {
+  text-decoration: underline;
+}
+
 .app {
   position: relative;
   display: -ms-grid;

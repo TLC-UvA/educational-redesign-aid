@@ -11,6 +11,7 @@ $primary: #008bc1;
 $secondary: #333333;
 $white: #ffffff;
 $grey: #edf1f3;
+$grey--diff: #cddee7;
 $action: #ff8686;
 $light-primary: #d1e3eb;
 
@@ -63,6 +64,44 @@ code {
 @media (max-width: $width) {
   .hide-on-small {
     display: none;
+  }
+}
+
+footer {
+  font-weight: 300;
+  font-size: 14px;
+  color: $secondary;
+}
+
+.footer {
+  &--border {
+    border-top: 1px solid $grey--diff;
+  }
+  
+  &__content {
+    max-width: $width;
+    margin: 0 auto;
+    padding: 70px 0;
+  }
+
+  &__line {
+    margin-bottom: 16px;
+
+    &--title {
+      font-weight: bold;
+    }
+
+    &--text {
+      display: inline;
+
+      & a {
+        color: $primary;
+        
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
   }
 }
 
