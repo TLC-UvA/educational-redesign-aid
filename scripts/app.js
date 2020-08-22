@@ -18,7 +18,7 @@ const dropdown = {
     this.dropdowns = document.getElementsByClassName('dropdown')
 
     /* Add the listener to each dropdown. */
-    for (el of this.dropdowns)
+    for (el of Array.from(this.dropdowns))
       el.addEventListener('click', this.onClick)
   },
   onClick() {
@@ -45,7 +45,7 @@ const collapse = {
     this.collapses = document.getElementsByClassName('card--collapsible')
 
     /* Add the listener to each dropdown. */
-    for (el of this.collapses)
+    for (el of Array.from(this.collapses))
       el.querySelector('.card__action').addEventListener('click', this.onClick)
   },
   onClick() {
@@ -81,7 +81,7 @@ const switchField = {
     }
 
     /* Add the listener to each switch field. */
-    for (el of this.switchFields)
+    for (el of Array.from(this.switchFields))
       el.addEventListener('click', this.onClick.bind(this))
   },
   onClick() {
