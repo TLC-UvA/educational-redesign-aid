@@ -647,6 +647,10 @@ main {
   color: #008bc1;
 }
 
+.card__action:hover {
+  color: #008bc1;
+}
+
 .card__action-text {
   font-size: 16px;
 }
