@@ -45,6 +45,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+:root {
+  --primary: #008bc1;
+}
+
 a,
 a:hover,
 a:active,
@@ -55,7 +59,7 @@ a:visited {
 
 code {
   font-family: Consolas,"courier new";
-  color: #008bc1;
+  color: var(--primary);
   background-color: #edf1f3;
   padding: 2px;
   display: inline-block;
@@ -96,7 +100,7 @@ footer {
 }
 
 .footer__line--text a {
-  color: #008bc1;
+  color: var(--primary);
 }
 
 .footer__line--text a:hover {
@@ -157,12 +161,12 @@ footer {
 
 .header__menu form {
   position: relative;
-  color: #008bc1;
+  color: var(--primary);
   margin-right: 16px;
 }
 
 .header__menu form:focus-within {
-  color: #008bc1;
+  color: var(--primary);
 }
 
 .header__menu form div {
@@ -178,7 +182,7 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   pointer-events: none;
-  color: #008bc1;
+  color: var(--primary);
 }
 
 .header__menu form div svg {
@@ -191,18 +195,18 @@ footer {
   width: 300px;
   padding: 0.5rem 0.75rem 0.5rem 2.5rem;
   border-width: 1px;
-  border-color: #008bc1;
+  border-color: var(--primary);
   border-radius: 0.375rem;
   line-height: 1.25rem;
   background-color: #ffffff;
-  color: #008bc1;
+  color: var(--primary);
   font-size: 0.875rem;
 }
 
 .header__menu form input:focus {
   outline: none;
   background-color: #ffffff;
-  color: #008bc1;
+  color: var(--primary);
 }
 
 .header__menu--icon {
@@ -367,11 +371,11 @@ main {
 }
 
 .block__header--link {
-  color: #008bc1;
+  color: var(--primary);
 }
 
 .block__header--link:visited {
-  color: #008bc1;
+  color: var(--primary);
 }
 
 .block__header--link:hover {
@@ -400,7 +404,7 @@ main {
 }
 
 .block__subtitle > a {
-  color: #008bc1;
+  color: var(--primary);
 }
 
 .block__paragraph {
@@ -454,7 +458,7 @@ main {
 }
 
 .block__links > a {
-  color: #008bc1;
+  color: var(--primary);
 }
 
 .author {
@@ -492,7 +496,7 @@ main {
 }
 
 .card--outlined {
-  border: solid 1px #008bc1;
+  border: solid 1px var(--primary);
 }
 
 .card--filled {
@@ -519,16 +523,16 @@ main {
           align-items: center;
   width: 100%;
   height: 150px;
-  color: #008bc1;
+  color: var(--primary);
   padding: initial;
 }
 
 .card--showcase:hover, .card--showcase:active, .card--showcase:visited {
-  color: #008bc1;
+  color: var(--primary);
 }
 
 .card--showcase:hover {
-  border: solid 1px #008bc1;
+  border: solid 1px var(--primary);
 }
 
 .card--bottom-space {
@@ -668,20 +672,20 @@ main {
 }
 
 .card__text--link > a {
-  color: #008bc1;
+  color: var(--primary);
 }
 
 .card__text a {
-  color: #008bc1;
+  color: var(--primary);
 }
 
 .card__text a:hover {
-  color: #008bc1;
+  color: var(--primary);
   text-decoration: underline;
 }
 
 .card__text a:visited, .card__text a:active {
-  color: #008bc1;
+  color: var(--primary);
 }
 
 .card__text--italic {
@@ -717,7 +721,7 @@ main {
 }
 
 .card__action {
-  color: #008bc1;
+  color: var(--primary);
   font-size: 14px;
   font-weight: normal;
   display: -webkit-box;
@@ -734,11 +738,11 @@ main {
 }
 
 .card__action:visited {
-  color: #008bc1;
+  color: var(--primary);
 }
 
 .card__action:hover {
-  color: #008bc1;
+  color: var(--primary);
 }
 
 .card__action-text {
@@ -825,7 +829,7 @@ main {
   height: 50px;
   margin-bottom: 25px;
   overflow: hidden;
-  border: 1px solid #008bc1;
+  border: 1px solid var(--primary);
   width: 430px;
   border-radius: 4px;
   display: -ms-grid;
@@ -854,7 +858,7 @@ main {
 
 .switch-field label {
   background-color: #edf1f3;
-  color: #008bc1;
+  color: var(--primary);
   font-size: 16px;
   text-align: center;
 }
@@ -866,7 +870,7 @@ main {
 
 .switch-field input:checked,
 .switch-field input:checked + label {
-  background-color: #008bc1;
+  background-color: var(--primary);
   color: #ffffff;
   font-weight: bold;
   -webkit-box-shadow: none;
@@ -900,7 +904,7 @@ main {
   content: '';
   width: 12px;
   height: 12px;
-  background: #008bc1;
+  background: var(--primary);
   position: absolute;
   top: 19px;
   left: 19px;
@@ -932,13 +936,13 @@ main {
   width: 200px;
   height: 40px;
   border-radius: 4px;
-  border: 1px #008bc1 solid;
+  border: 1px var(--primary) solid;
   margin-left: 12px;
   cursor: pointer;
 }
 
 .dropdown__text {
-  color: #008bc1;
+  color: var(--primary);
   font-size: 14px;
   line-height: 14px;
 }
@@ -975,7 +979,7 @@ main {
   background-color: #ffffff;
   padding: 14px 6px;
   border-radius: 4px;
-  border: 1px #008bc1 solid;
+  border: 1px var(--primary) solid;
   -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   visibility: hidden;
@@ -983,7 +987,7 @@ main {
 }
 
 .dropdown__options a {
-  color: #008bc1;
+  color: var(--primary);
   padding: 8px 6px 8px 6px;
   border-radius: 4px;
   -webkit-user-select: none;

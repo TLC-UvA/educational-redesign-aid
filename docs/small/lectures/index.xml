@@ -1,47 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lectures on Educational Redesign Aid</title>
+    <title>Educational Redesign Aid</title>
     <link>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/lectures/</link>
-    <description>Recent content in Lectures on Educational Redesign Aid</description>
+    <description>Recent content on Educational Redesign Aid</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate><atom:link href="https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/lectures/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/lectures/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>What to do</title>
-      <link>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/lectures/what/</link>
-      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
-      
-      <guid>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/lectures/what/</guid>
-      <description>Your options here are pre-recorded or live lectures. Choose pre-recorded for larger and/or more international groups (in different time zones). Choose live lectures to increase student engagement and interaction. This also helps you and your students to stay connected throughout the course.
-Also, we recommend that you use your first lecture to explain to students what you expect (e.g. Zoom etiquette for students), show them around, and walk them through the online course.</description>
-    </item>
-    
-    <item>
-      <title>Tools to use</title>
-      <link>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/lectures/tools/</link>
-      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
-      
-      <guid>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/lectures/tools/</guid>
-      <description>UvA Weblectures Link-generator - Provides a tool to select segments in weblectures.  Instructions &amp; Download   You can find the tool here. You can watch a 5 min video tutorial here (made by Fam te Poel, UvA TLC).   CANVAS discussion board - Online forum tool to facilitate discussions.  Instructions &amp; Download   Check out the instructions on how to set up discussions or a Live Chat in Canvas.</description>
-    </item>
-    
-    <item>
-      <title>Why do this</title>
-      <link>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/lectures/why/</link>
-      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
-      
-      <guid>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/lectures/why/</guid>
-      <description>Prerecorded Lectures: With larger audiences, more students might encounter technical problems, which prevent them from (completely) following live lectures. In those cases, pre-recorded lectures are the way to go. We advise you not to copy-paste weblectures as they are, since this has been a source of complaints by students. Therefore we recommend to check the quality first and then select segments, based on subtopics. In addition, when you add viewing instructions you encourage your students to watch the videos in a ‘learning mode’.</description>
-    </item>
-    
-    <item>
-      <title>Tips</title>
+      <title></title>
       <link>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/lectures/tips/</link>
-      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/lectures/tips/</guid>
-      <description>If using a pre-recorded format, add a short quiz to your video with Feedback Fruits to assess students’ understanding of the subject matter. This way you activate your students while they watch your videos and foster information processing. Plus, you finally get feedback on what students (mis)understand. Add a personal start of the week (video) message with Kaltura in Canvas in which you announce the topics of the week and link it to the previous week.</description>
+      <description>../../medium/lectures/tips.md</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/lectures/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/lectures/tools/</guid>
+      <description>../../medium/lectures/tools.md</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/lectures/what/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/lectures/what/</guid>
+      <description>../../medium/lectures/what.md</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/lectures/why/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/lectures/why/</guid>
+      <description>../../medium/lectures/why.md</description>
     </item>
     
   </channel>
