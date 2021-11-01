@@ -1,0 +1,20 @@
+<div class="card card--collapsible card--no-padding" style="margin-bottom: 20px;">
+  <div class="card--single-line">
+    <div class="card--single-line--title">
+      <span class="card__main">{{ index .Params "title" }} -</span>
+      <span class="card__text">{{ index .Params "subtitle" }}</span>
+    </div>
+    <div class="card__action card__action--right">
+      <span class="hide-on-small">Instructions & Download</span>
+      <img src="{{ .Site.BaseURL }}icons/collapse.png" alt="expand section"
+        class="card__action--icon card--expand">
+      <img src="{{ .Site.BaseURL }}icons/expand.png" alt="expand section"
+        class="card__action--icon card--collaps">
+    </div>
+  </div>
+
+  <div class="card__text card__expandable">
+    <!-- The text that needs to appear. -->
+    {{ index .Inner }}
+  </div>
+</div>

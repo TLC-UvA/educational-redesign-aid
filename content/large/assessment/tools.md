@@ -1,0 +1,29 @@
+---
+title: "Tools to use"
+icon: /icons/tools.png
+menu: /icons/tools-menu.png
+date: 2020-07-31T11:05:44+02:00
+expandable: false
+instructions: true
+weight: 2
+---
+
+{{< tool title="UvA Assessment Documentation" subtitle="Online support for UvA lecturers on taking assignments and assessments online." >}}
+Find out more <a href="https://canvas.uva.nl/courses/41/pages/exams" target="_blank">here</a>.
+{{< /tool >}}
+
+{{< tool title="Canvas assessments" subtitle="Online tool for submission and online grading of assessments." >}}
+Here are the instructions to <a href="https://canvas.uva.nl/courses/169/pages/creating-assignments-online-submissions?module_item_id=1424" target="_blank">set up an assessment</a> in Canvas.
+{{< /tool >}}
+
+{{< tool title="Canvas Rubrics" subtitle="Online grading grid used with a Canvas assessment. Helps to grade faster and more consistently." >}}
+Here are the instructions on how to <a href="https://canvas.uva.nl/courses/169/pages/creating-and-using-rubrics?module_item_id=1440" target="_blank">set up a rubric</a> up and how to <a href="https://community.canvaslms.com/docs/DOC-12931-4152724107" target="_blank">use rubrics for grading submissions</a>.
+{{< /tool >}}
+
+{{< tool title="SpeedGrader in Canvas" subtitle="Online tool in Canvas to provide (peer)feedback in an efficient and effective manner." >}}
+Find out more <a href="https://canvas.uva.nl/courses/169/modules/items/1441" target="_blank">here</a>.
+{{< /tool >}}
+
+{{< tool title="Feedback Fruits" subtitle="Online (peer)feedback tool in Canvas." >}}
+First, check with your ICTO team if your department uses Feedback Fruits. Here are the instructions to <a href="https://vimeo.com/252696165" target="_blank">use the peer-feedback functionality</a>.
+{{< /tool >}}

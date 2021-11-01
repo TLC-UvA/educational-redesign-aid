@@ -1,0 +1,1 @@
+../../large/seminars/_index.md

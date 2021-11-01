@@ -1,0 +1,39 @@
+---
+title: "Medium course"
+subtitle: "50 - 100 students"
+icon: /icons/medium-course.png
+date: 2020-07-31T11:05:44+02:00
+layout: list
+category: "medium-sized courses"
+weight: 2
+---
+
+<!-- A central block for choosing the course size. -->
+<div class="block block--white block--larger">
+  <div class="block__header">
+    <h2 class="block__title block__title--space" id="show_me">{{< param title >}} week schedule</h2>
+    <p class="block__paragraph">The schedule below is an example showing how a typical week of offline teaching looks when you take it online.</p>
+  </div>
+
+  <div class="block__content">
+    <div class="switch-field">
+      <div class="switch-field__option">
+        <input type="radio" id="offline" name="schedule" value="0" checked />
+        <label for="offline">Offline schedule</label>
+      </div>
+      <div class="switch-field__option">
+        <input type="radio" id="online" name="schedule" value="1" />
+        <label for="online">Online schedule</label>
+      </div>
+    </div>
+
+    <div class="block__image">
+      <img class="switch-field__item" src="{{< baseurl >}}/images/medium-offline.png" alt="">
+      <img class="switch-field__item" src="{{< baseurl >}}/images/medium-online.png" alt="">
+    </div>
+
+    <span class="block__links">
+      Show me: <a href="{{< baseurl >}}small/#show_me">Small course calendar</a> - <a href="{{< baseurl >}}large/#show_me">Large course calendar</a>
+    </span>
+  </div>
+</div>

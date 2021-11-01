@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ivan de Wolf">
+  <link rel="stylesheet" href="https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/styles/app.css">
+  <title>Educational Redesign Aid</title>
+  <meta name="description" content="TLC’s Educational Redesign Aid helps you take your teaching online.">
+  <meta property="og:title" content="Educational Redesign Aid" />
+  <meta property="og:url" content="https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/" />
+  <meta property="og:description" content="TLC’s Educational Redesign Aid helps you take your teaching online.">
+  <meta property="og:image"
+    content="https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/images/teaching-centre-hero.png">
+</head>
+
+<body>
+  <div class="app">
+    
+    <div class="header">
+      <a href="https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/">
+        <img src="https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/images/uva-logo.png" alt="uva logo" class="header__logo">
+      </a>
+
+      
+<div class="header__menu">
+  <form id="search" action="https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/search" method="get">
+  <div>
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+      <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+    </svg>
+  </div>
+  <input id="search-input" name="query" placeholder="Search" type="search" />
+</form>
+
+
+  
+</div>
+
+    </div>
+
+    
+    <main>
+      
+<ul id="results" class="container search-results">
+</ul>
+<script>
+window.store = {
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/search\/": {
+        
+        "title": "Search me!",
+        "description": "",
+        "tags": [],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/search\/"
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/large\/lectures\/": {
+        
+        "title": "Lectures",
+        "description": "Offline, lecturers who are teaching 100\u002b students typically give a 2-hour presentation. The lecturer’s focus is on providing an overview and explaining the subject matter in a clear manner. The goals for students are to ***understand the subject matter*** and to get ***the bigger picture***. Let’s take this online!",
+        "tags": [],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/large\/lectures\/"
+    },
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/medium\/lectures\/": {
+        
+        "title": "Lectures",
+        "description": "Offline, lecturers who are teaching fewer than 100 students typically give a 2-hour presentation (with activating elements in between). The lecturer’s focus is on providing an overview and explaining the subject matter in a clear manner. The goals for students are to understand the subject matter and to get the bigger picture. Let’s take this online!",
+        "tags": [],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/medium\/lectures\/"
+    },
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/small\/lectures\/": {
+        
+        "title": "Lectures",
+        "description": "Offline, lecturers who are teaching fewer than 100 students typically give a 2-hour presentation (with activating elements in between). The lecturer’s focus is on providing an overview and explaining the subject matter in a clear manner. The goals for students are to understand the subject matter and to get the bigger picture. Let’s take this online!",
+        "tags": [],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/small\/lectures\/"
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/large\/guest_lectures\/": {
+        
+        "title": "Guest Lectures",
+        "description": "Offline your guest lecturer would typically give a 2-hour presentation. His\/her focus is on providing an insight in professional practices. The goals for students are to ***expand their knowledge*** and views and to ***get insight into professional real life experiences***. Let’s take this online!",
+        "tags": [],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/large\/guest_lectures\/"
+    },
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/medium\/guest_lectures\/": {
+        
+        "title": "Guest Lectures",
+        "description": "Offline your guest lecturer would typically give a 2-hour presentation (with activating elements in between). His\/her focus is on providing an insight in professional practices. The goals for students are to ***expand their knowledge and views*** and to ***get insight into professional real life experiences***. Let’s take this online!",
+        "tags": [],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/medium\/guest_lectures\/"
+    },
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/small\/guest_lectures\/": {
+        
+        "title": "Guest Lectures",
+        "description": "Offline your guest lecturer would typically give a 2-hour presentation (with activating elements in between). His\/her focus is on providing an insight in professional practices. The goals for students are to ***expand their knowledge and views*** and to ***get insight into professional real life experiences***. Let’s take this online!",
+        "tags": [],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/small\/guest_lectures\/"
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/large\/seminars\/": {
+        
+        "title": "Seminars",
+        "description": "Offline, a seminar (in Dutch: Werkcollege) typically starts with some instructions and continues with supervised hands-on practice for around 30-50 students. The lecturer’s focus is on structured guidance, providing feedback and stimulating collaborative learning. The goals for students are to ***process and apply the subject matter*** and to ***experience supervised practice***. Let’s take this online!",
+        "tags": ["seminar",],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/large\/seminars\/"
+    },
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/medium\/seminars\/": {
+        
+        "title": "Seminars",
+        "description": "Offline, a seminar (in Dutch: Werkcollege) typically starts with some instructions and continues with supervised hands-on practice for around 30-50 students. The lecturer’s focus is on structured guidance, providing feedback and stimulating collaborative learning. The goals for students are to ***process and apply the subject matter*** and to ***experience supervised practice***. Let’s take this online!",
+        "tags": ["seminar",],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/medium\/seminars\/"
+    },
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/small\/seminars\/": {
+        
+        "title": "Seminars",
+        "description": "Offline, a seminar (in Dutch: Werkcollege) typically starts with some instructions and continues with supervised hands-on practice for around 30-50 students. The lecturer’s focus is on structured guidance, providing feedback and stimulating collaborative learning. The goals for students are to ***process and apply the subject matter*** and to ***experience supervised practice***. Let’s take this online!",
+        "tags": ["seminar",],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/small\/seminars\/"
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/1-on-1\/": {
+        
+        "title": "1 on 1 supervision",
+        "description": "Offline, lecturers offer a wide variety of 1-on-1 supervision, from individual assignments to thesis and internship supervision.The lecturer’s focus is to provide support and feedback and to assess each student’s progress and final level. Along the road, the lecturer tailors his teaching approach to the students’ needs. The goals for students are to ***assess their progress and deficiencies*** to meet the ***course goals***. Let’s take this online!",
+        "tags": [],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/1-on-1\/"
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/large\/workgroups\/": {
+        
+        "title": "Workgroups",
+        "description": "Offline, a workgroup (in Dutch: Werkgroep) with up to 25-30 students provides the opportunity for students to fully engage with the subject matter and each other. The lecturer’s focus is on providing practice and feedback, elicit discussions, and support collaborative learning, not so much on direct instruction. The goals for students are to ***process and analyze the subject matter*** and to experience ***hands-on practice and discussion***. Let’s take this online!",
+        "tags": ["workgroups","seminar",],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/large\/workgroups\/"
+    },
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/medium\/workgroups\/": {
+        
+        "title": "Workgroups",
+        "description": "Offline, a workgroup (in Dutch: Werkgroep) with up to 25-30 students provides the opportunity for students to fully engage with the subject matter and each other. The lecturer’s focus is on providing practice and feedback, elicit discussions, and support collaborative learning, not so much on direct instruction. The goals for students are to ***process and analyze the subject matter*** and to experience ***hands-on practice and discussion***. Let’s take this online!",
+        "tags": ["workgroups","seminar",],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/medium\/workgroups\/"
+    },
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/small\/workgroups\/": {
+        
+        "title": "Workgroups",
+        "description": "Offline, a workgroup (in Dutch: Werkgroep) with up to 25-30 students provides the opportunity for students to fully engage with the subject matter and each other. The lecturer’s focus is on providing practice and feedback, elicit discussions, and support collaborative learning, not so much on direct instruction. The goals for students are to ***process and analyze the subject matter*** and to experience ***hands-on practice and discussion***. Let’s take this online!",
+        "tags": ["workgroups","seminar",],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/small\/workgroups\/"
+    },
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/large\/individual_assignments\/": {
+        
+        "title": "Individual Assignments",
+        "description": "Offline, lecturers offer a wide variety of individual assignments to assess each student’s progress and final level. Additionally, the lecturer’s focus is to provide feedback, and adjust the teaching approach to the students’ needs. The goals for students are to ***assess their progress and deficiencies*** to meet the course goals. Let’s take this online!",
+        "tags": [],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/large\/individual_assignments\/"
+    },
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/medium\/individual_assignments\/": {
+        
+        "title": "Individual Assignments",
+        "description": "Offline, lecturers offer a wide variety of individual assignments to assess each student’s progress and final level. Additionally, the lecturer’s focus is to provide feedback, and adjust the teaching approach to the students’ needs. The goals for students are to ***assess their progress and deficiencies*** to meet the course goals. Let’s take this online!",
+        "tags": [],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/medium\/individual_assignments\/"
+    },
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/small\/individual_assignments\/": {
+        
+        "title": "Individual Assignments",
+        "description": "Offline, lecturers offer a wide variety of individual assignments to assess each student’s progress and final level. Additionally, the lecturer’s focus is to provide feedback, and adjust the teaching approach to the students’ needs. The goals for students are to ***assess their progress and deficiencies*** to meet the course goals. Let’s take this online!",
+        "tags": [],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/small\/individual_assignments\/"
+    },
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/large\/group_assignments\/": {
+        
+        "title": "Group Assignments",
+        "description": "Offline, lecturers offer a wide variety of group assignments. The lecturer’s focus is to support, encourage and assess collaborative skills and products for (sub)groups up to 6 students. The goals for students are to*** create results in a collaborative manner***. Let’s take this online!",
+        "tags": [],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/large\/group_assignments\/"
+    },
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/medium\/group_assignments\/": {
+        
+        "title": "Group Assignments",
+        "description": "Offline, lecturers offer a wide variety of group assignments. The lecturer’s focus is to support, encourage and assess collaborative skills and products for (sub)groups up to 6 students. The goals for students are to*** create results in a collaborative manner***. Let’s take this online!",
+        "tags": [],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/medium\/group_assignments\/"
+    },
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/small\/group_assignments\/": {
+        
+        "title": "Group Assignments",
+        "description": "Offline, lecturers offer a wide variety of group assignments. The lecturer’s focus is to support, encourage and assess collaborative skills and products for (sub)groups up to 6 students. The goals for students are to*** create results in a collaborative manner***. Let’s take this online!",
+        "tags": [],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/small\/group_assignments\/"
+    },
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/large\/assessment\/": {
+        
+        "title": "Assessment",
+        "description": "Offline, lecturers offer a wide variety of ways to assess each student’s progress and final level. The goals for students are to ***assess their progress and deficiencies*** to ***meet the course goals***. Let’s take this online!!",
+        "tags": [],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/large\/assessment\/"
+    },
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/medium\/assessment\/": {
+        
+        "title": "Assessment",
+        "description": "Offline, lecturers offer a wide variety of ways to assess each student’s progress and final level. The goals for students are to ***assess their progress and deficiencies*** to ***meet the course goals***. Let’s take this online!!",
+        "tags": [],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/medium\/assessment\/"
+    },
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/small\/assessment\/": {
+        
+        "title": "Assessment",
+        "description": "Offline, lecturers offer a wide variety of ways to assess each student’s progress and final level. The goals for students are to ***assess their progress and deficiencies*** to ***meet the course goals***. Let’s take this online!!",
+        "tags": [],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/small\/assessment\/"
+    },
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/large\/office_hours\/": {
+        
+        "title": "Office Hours",
+        "description": "Offline, lecturers typically provide office hours ad hoc to support students and answer questions, or review an exam. Aside from office hours, lecturers are often available after class to answer questions. The lecturer’s focus is to be available and easily accessible to students and to stay connected. Let’s take this online!",
+        "tags": ["seminar",],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/large\/office_hours\/"
+    },
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/medium\/office_hours\/": {
+        
+        "title": "Office Hours",
+        "description": "Offline, lecturers typically provide office hours ad hoc to support students and answer questions, or review an exam. Aside from office hours, lecturers are often available after class to answer questions. The lecturer’s focus is to be available and easily accessible to students and to stay connected. Let’s take this online!",
+        "tags": ["seminar",],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/medium\/office_hours\/"
+    },
+    
+    
+    
+    
+    
+    "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/small\/office_hours\/": {
+        
+        "title": "Office Hours",
+        "description": "Offline, lecturers typically provide office hours to support students and answer questions, or review an exam. Aside from office hours, lecturers are often available after class to answer questions. The lecturer’s focus is to be available and easily accessible to students and to stay connected. Let’s take this online!",
+        "tags": [],
+        "content": "", 
+        "url": "https:\/\/werkgroep-toetsen-op-afstand.github.io\/remote-assessment-aid\/small\/office_hours\/"
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+</script>
+
+<script src="https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/js/lunr.min.js"></script>
+<script src="https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/js/search.js"></script>
+
+
+    </main>
+
+    <footer>
+      <div class="footer__content">
+        <div class="footer__line">
+          <span class="footer__line--title">Credits:</span>
+          <p class="footer__line--text">Ivan de Wolf (programmer), Mariska Knol, Jessica Taylor Piotrowski, Koos van der Maas, Marieke Schoutsen (designer), Fam te Poel, and Annemarie Zand Scholten.</p>
+        </div>
+        <div class="footer__line">
+          <span class="footer__line--title">License:</span>
+          <p class="footer__line--text">
+            The University of Amsterdam’s Educational Redesign Aid (ERA) is offered under a
+            <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank">CC-BY-SA 2.0</a>
+            license. All content on ERA can be considered under this license unless otherwise noted. Consistent with this license, reuse is possible assuming proper attribution and distribution conditions that follow the
+            <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank">same license</a>
+            as ERA.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/scripts/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+baseURL = "https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/"
+publishDir = "docs"
+languageCode = "en-us"
+title = "Educational Redesign Aid"
+theme = "TLC-UvA-theme"
+defaultContentLanguage = "en"
+
+[params]
+  landingpageTitle = "Taking your teaching online"
+  landingpageSubtitle = "The Teaching & Learning Centre developed an Educational Redesign Aid (ERA). It’s specifically designed to help you teach online."
+  landingpageBannerImage = "images/landing-no-logo.jpg"
+  landingpageLogoImage = "images/teaching-centre-landing.png"
+  landingpageLogoImageSmall = "images/teaching-centre-hero.png"
+
+  color = "#008bc1"
+
+# [languages]
+#   [languages.en]
+#     languageName = "English"
+#     title = "Educational Redesign Aid"
+#     weight = 1
+#   [languages.nl]
+#     languageName = "Nederlands"
+#     title = "Educational Redesign Aid"
+#     weight = 2
