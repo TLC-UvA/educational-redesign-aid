@@ -1,7 +1,7 @@
 ---
 title: "Tips"
 icon: /icons/tips.png
-menu: /icons/tips-menu.png
+menuicon: /icons/tips-menu.png
 date: 2020-07-31T11:05:44+02:00
 expandable: false
 instructions: false
