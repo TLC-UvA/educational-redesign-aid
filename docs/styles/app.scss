@@ -29,6 +29,7 @@ $secondary: #333333;
 $white: #ffffff;
 $grey: #edf1f3;
 $grey--diff: #cddee7;
+$action: #ff8686;
 $light-primary: #d1e3eb;
 
 /**
@@ -61,10 +62,6 @@ $width: 1180px;
   font-family: 'Open Sans', sans-serif;
 }
 
-:root {
-  --primary: #{$primary};
-}
-
 a,
 a:hover,
 a:active,
@@ -75,7 +72,7 @@ a:visited {
 
 code {
   font-family: Consolas,"courier new";
-  color: var(--primary);
+  color: $primary;
   background-color: $grey;
   padding: 2px;
   display: inline-block;
@@ -115,7 +112,7 @@ footer {
       display: inline;
 
       & a {
-        color: var(--primary);
+        color: $primary;
         
         &:hover {
           text-decoration: underline;
@@ -162,11 +159,11 @@ footer {
 
     & form {
       position: relative;
-      color: var(--primary);
+      color: $primary;
       margin-right: 16px;
 
       &:focus-within {
-        color: var(--primary);
+        color: $primary;
       }
 
       & div {
@@ -178,7 +175,7 @@ footer {
         display: flex;
         align-items: center;
         pointer-events: none;
-        color: var(--primary);
+        color: $primary;
 
         & svg {
           height: 1.25rem;
@@ -191,17 +188,17 @@ footer {
         width: 300px;
         padding: 0.5rem 0.75rem 0.5rem 2.5rem;
         border-width: 1px;
-        border-color: var(--primary);
+        border-color: $primary;
         border-radius: 0.375rem;
         line-height: 1.25rem;
         background-color: $white;
-        color: var(--primary);
+        color: $primary;
         font-size: 0.875rem;
         
         &:focus {
           outline: none;
           background-color: $white;
-          color: var(--primary);
+          color: $primary;
         }
       }
     }
@@ -358,10 +355,10 @@ main {
     }
 
     &--link {
-      color: var(--primary);
+      color: $primary;
 
       &:visited {
-        color: var(--primary);
+        color: $primary;
       }
       &:hover {
         text-decoration: underline;
@@ -390,7 +387,7 @@ main {
     font-weight: normal;
 
     & > a {
-      color: var(--primary);
+      color: $primary;
     }
   }
 
@@ -440,7 +437,7 @@ main {
     font-size: 14px;
 
     & > a {
-      color: var(--primary);
+      color: $primary;
     }
   }
 }
@@ -476,7 +473,7 @@ main {
   }
 
   &--outlined {
-    border: solid 1px var(--primary);
+    border: solid 1px $primary;
   }
 
   &--filled {
@@ -494,18 +491,18 @@ main {
     align-items: center;
     width: 100%;
     height: 150px;
-    color: var(--primary);
+    color: $primary;
     padding: initial;
 
     &:hover,
     &:active,
     &:visited {
-      color: var(--primary);
+      color: $primary;
     }
   }
 
   &--showcase:hover {
-    border: solid 1px var(--primary);
+    border: solid 1px $primary;
   }
 
   &--bottom-space {
@@ -634,20 +631,20 @@ main {
       margin-top: 16px;
 
       & > a {
-        color: var(--primary);
+        color: $primary;
       }
     }
 
     & a {
-      color: var(--primary);
+      color: $primary;
 
       &:hover {
-        color: var(--primary);
+        color: $primary;
         text-decoration: underline;
       }
 
       &:visited, &:active {
-        color: var(--primary);
+        color: $primary;
       }
     }
 
@@ -685,7 +682,7 @@ main {
   }
 
   &__action {
-    color: var(--primary);
+    color: $primary;
     font-size: 14px;
     font-weight: normal;
     display: flex;
@@ -694,11 +691,11 @@ main {
     user-select: none;
 
     &:visited {
-      color: var(--primary);
+      color: $primary;
     }
 
     &:hover {
-      color: var(--primary);
+      color: $primary;
     }
 
     &-text {
@@ -782,7 +779,7 @@ main {
   height: 50px;
   margin-bottom: 25px;
   overflow: hidden;
-  border: 1px solid var(--primary);
+  border: 1px solid $primary;
   width: 430px;
   border-radius: $border-radius;
   display: grid;
@@ -807,7 +804,7 @@ main {
 
 .switch-field label {
   background-color: $grey;
-  color: var(--primary);
+  color: $primary;
   font-size: 16px;
   text-align: center;
 }
@@ -819,7 +816,7 @@ main {
 
 .switch-field input:checked,
 .switch-field input:checked+label {
-  background-color: var(--primary);
+  background-color: $primary;
   color: $white;
   font-weight: bold;
   box-shadow: none;
@@ -851,7 +848,7 @@ main {
   content: '';
   width: 12px;
   height: 12px;
-  background: var(--primary);
+  background: $primary;
   position: absolute;
   top: 19px;
   left: 19px;
@@ -879,12 +876,12 @@ main {
   width: $width;
   height: 40px;
   border-radius: $border-radius;
-  border: 1px var(--primary) solid;
+  border: 1px $primary solid;
   margin-left: 12px;
   cursor: pointer;
 
   &__text {
-    color: var(--primary);
+    color: $primary;
     font-size: 14px;
     line-height: 14px;
   }
@@ -911,13 +908,13 @@ main {
     background-color: $white;
     padding: 14px 6px;
     border-radius: $border-radius;
-    border: 1px var(--primary) solid;
+    border: 1px $primary solid;
     box-shadow: $box-shadow;
     visibility: hidden;
     z-index: 10;
 
     & a {
-      color: var(--primary);
+      color: $primary;
       padding: 8px 6px 8px 6px;
       border-radius: $border-radius;
       user-select: none;
