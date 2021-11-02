@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Educational Redesign Aid</title>
-    <link>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/assessment/</link>
+    <link>https://tlc-uva.github.io/educational-redesign-aid/small/assessment/</link>
     <description>Recent content on Educational Redesign Aid</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/assessment/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://tlc-uva.github.io/educational-redesign-aid/small/assessment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/assessment/tips/</link>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/small/assessment/tips/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/assessment/tips/</guid>
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/small/assessment/tips/</guid>
       <description>../../large/assessment/tips.md</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/assessment/tools/</link>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/small/assessment/tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/assessment/tools/</guid>
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/small/assessment/tools/</guid>
       <description>../../large/assessment/tools.md</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/assessment/what/</link>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/small/assessment/what/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/assessment/what/</guid>
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/small/assessment/what/</guid>
       <description>../../large/assessment/what.md</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/assessment/why/</link>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/small/assessment/why/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/small/assessment/why/</guid>
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/small/assessment/why/</guid>
       <description>../../large/assessment/why.md</description>
     </item>
     

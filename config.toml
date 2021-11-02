@@ -1,4 +1,4 @@
-baseURL = "https://werkgroep-toetsen-op-afstand.github.io/remote-assessment-aid/"
+baseURL = "https://tlc-uva.github.io/educational-redesign-aid/"
 publishDir = "docs"
 languageCode = "en-us"
 title = "Educational Redesign Aid"
