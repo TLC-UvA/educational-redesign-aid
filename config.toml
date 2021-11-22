@@ -6,13 +6,47 @@ theme = "TLC-UvA-theme"
 defaultContentLanguage = "en"
 
 [params]
+  # General site parameters
+  color = "#008bc1"
+  author = "Ivan de Wolf"
+  description = "TLC’s Educational Redesign Aid helps you take your teaching online."
+  siteLogo = "images/uva-logo.png"
   landingpageTitle = "Taking your teaching online"
   landingpageSubtitle = "The Teaching & Learning Centre developed an Educational Redesign Aid (ERA). It’s specifically designed to help you teach online."
   landingpageBannerImage = "images/landing-no-logo.jpg"
   landingpageLogoImage = "images/teaching-centre-landing.png"
   landingpageLogoImageSmall = "images/teaching-centre-hero.png"
 
-  color = "#008bc1"
+  # Homepage parameters
+  homeChoiceTitle = "Choose Your Course Size"
+  homeChoiceSubtitle = """
+  For instructions, specific teaching examples, scheduling, tips & tools.
+  
+  Or read [general best practices & tips](#tips) ![dropdown icon](icons/dropdown-arrow.png)
+  """
+
+  # List page parameters
+  listMenuBackHomeText = "Other course sizes"
+  listTitle = ": choose a teaching method"
+  listSubtitle = """
+  And read about online alternatives, tips and tools.
+  
+  Or read [general best practices & tips](#tips) ![dropdown icon](../icons/dropdown-arrow.png)
+  """
+
+  # Single page parameters
+  singleShowEverything = "Show everything"
+  singleShowLess = "Show less"
+  singleJumpMenuTitle = "Jump to:"
+  singleOtherPagesTitle = "Other teaching methods"
+  singleBackHomeText = "change course size"
+
+  # Footer parameters
+  footer = """
+  **Credits:** Ivan de Wolf (programmer), Mariska Knol, Jessica Taylor Piotrowski, Koos van der Maas, Marieke Schoutsen (designer), Fam te Poel, and Annemarie Zand Scholten.
+
+  **License:** The University of Amsterdam’s Educational Redesign Aid (ERA) is offered under a [CC-BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) license. All content on ERA can be considered under this license unless otherwise noted. Consistent with this license, reuse is possible assuming proper attribution and distribution conditions that follow the [same license](https://creativecommons.org/licenses/by-sa/2.0/) as ERA.
+  """
 
 # [languages]
 #   [languages.en]
