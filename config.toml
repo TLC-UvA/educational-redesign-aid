@@ -37,6 +37,7 @@ defaultContentLanguage = "en"
   # Single page parameters
   singleShowEverything = "Show everything"
   singleShowLess = "Show less"
+  singleInstructions = "Instructions & Download"
   singleJumpMenuTitle = "Jump to:"
   singleOtherPagesTitle = "Other teaching methods"
   singleBackHomeText = "change course size"
