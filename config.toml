@@ -49,12 +49,14 @@ defaultContentLanguage = "en"
   **License:** The University of Amsterdam’s Educational Redesign Aid (ERA) is offered under a [CC-BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) license. All content on ERA can be considered under this license unless otherwise noted. Consistent with this license, reuse is possible assuming proper attribution and distribution conditions that follow the [same license](https://creativecommons.org/licenses/by-sa/2.0/) as ERA.
   """
 
-# [languages]
-#   [languages.en]
-#     languageName = "English"
-#     title = "Educational Redesign Aid"
-#     weight = 1
-#   [languages.nl]
-#     languageName = "Nederlands"
-#     title = "Educational Redesign Aid"
-#     weight = 2
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Educational Redesign Aid"
+    weight = 1
+    [languages.en.params]
+      color = "#f00"
+  [languages.nl]
+    languageName = "Nederlands"
+    title = "Educational Redesign Aid"
+    weight = 2
