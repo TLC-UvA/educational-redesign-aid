@@ -6,7 +6,11 @@
     <description>Recent content in Workgroups on Educational Redesign Aid</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate><atom:link href="https://tlc-uva.github.io/educational-redesign-aid/large/workgroups/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://tlc-uva.github.io/educational-redesign-aid/large/workgroups/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>What to do</title>
       <link>https://tlc-uva.github.io/educational-redesign-aid/large/workgroups/what/</link>
@@ -15,15 +19,6 @@
       <guid>https://tlc-uva.github.io/educational-redesign-aid/large/workgroups/what/</guid>
       <description>We recommend a mixed approach for workgroups (pre-recorded + live) so that your live portions capitalize on opportunities for student engagement and interaction. We aim for a total of 90-minutes of content time (plus breaks).
  Pre-record your instructions and short presentation with Powerpoint (10 minutes). Upload this to Canvas for students to view prior to the seminar. You can also explain what you expect students to do in the breakout rooms and what they should deliver at the end (they can’t see your instructional slides in a breakout room).</description>
-    </item>
-    
-    <item>
-      <title>Tools to use</title>
-      <link>https://tlc-uva.github.io/educational-redesign-aid/large/workgroups/tools/</link>
-      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
-      
-      <guid>https://tlc-uva.github.io/educational-redesign-aid/large/workgroups/tools/</guid>
-      <description>MS 365 Powerpoint - Presentation tool to record your instructions.  Instructions &amp; Download   Check out these instruction videos on how to record and save your presentation and how to upload it on Canvas made by Fam te Poel (UvA TLC). Mac users can only record audio, not video. If you prefer to use video with your presentation we suggest you use Kaltura Capture (see below).   ZOOM with Breakout Rooms - Online communication tool to provide live (sub)group sessions.</description>
     </item>
     
     <item>

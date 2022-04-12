@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools to use on Educational Redesign Aid</title>
+    <link>https://tlc-uva.github.io/educational-redesign-aid/large/seminars/tools/</link>
+    <description>Recent content in Tools to use on Educational Redesign Aid</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://tlc-uva.github.io/educational-redesign-aid/large/seminars/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MS 365 Powerpoint</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/large/seminars/tools/ms_365_powerpoint/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/large/seminars/tools/ms_365_powerpoint/</guid>
+      <description>Check out these instruction videos on how to record and save your presentation and how to upload it on Canvas made by Fam te Poel (UvA TLC). Mac users can only record audio, not video. If you prefer to use video with your presentation we suggest you use Kaltura Capture (see below).</description>
+    </item>
+    
+    <item>
+      <title>ZOOM with Breakout Rooms</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/large/seminars/tools/zoom_with_breakout_rooms/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/large/seminars/tools/zoom_with_breakout_rooms/</guid>
+      <description>Check out short instruction videos on how to schedule a Zoom session in Canvas, the basics of Zoom and using Zoom polls (made by Fam te Poel, UvA TLC). Full instructions can be found here. And yes, there are even pdfs, on Zoom etiquette for students and how to monitor Zoom attendance.</description>
+    </item>
+    
+    <item>
+      <title>CANVAS Discussion Board, Collaborations and Live Chat</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/large/seminars/tools/canvas_discussion_board_collaborations_and_live_chat/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/large/seminars/tools/canvas_discussion_board_collaborations_and_live_chat/</guid>
+      <description>Online tools to facilitate student interaction in-between classes. Check out the instructions on how to set up Discussions or a Live Chat, how to use Collaborations and more information on Groups and adding a Groupset.</description>
+    </item>
+    
+    <item>
+      <title>Feedback Fruits</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/large/seminars/tools/feedback_fruits/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/large/seminars/tools/feedback_fruits/</guid>
+      <description>First, check with your ICTO team if your department uses Feedback Fruits. Check out the instruction video and example made by Fam te Poel (UvA TLC). Here are the instructions to use the peer-feedback functionality.</description>
+    </item>
+    
+    <item>
+      <title>Kaltura</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/large/seminars/tools/kaltura/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/large/seminars/tools/kaltura/</guid>
+      <description>Check out these instruction videos about quickly creating video content (express capture), pre-recording lectures, (Kaltura capture) and how to embed this content in Canvas, made by Fam te Poel (UvA TLC).</description>
+    </item>
+    
+  </channel>
+</rss>

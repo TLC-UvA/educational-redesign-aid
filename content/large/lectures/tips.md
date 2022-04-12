@@ -6,6 +6,7 @@ date: 2020-07-31T11:05:44+02:00
 expandable: false
 instructions: false
 weight: 4
+category: "section"
 ---
 
 - Add a short quiz to your video with Feedback Fruits to assess students’ understanding of the subject matter. This way you activate your students while they watch your videos and foster information processing. Plus, you finally get feedback on what students (mis)understand.

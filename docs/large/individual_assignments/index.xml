@@ -6,7 +6,11 @@
     <description>Recent content in Individual Assignments on Educational Redesign Aid</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate><atom:link href="https://tlc-uva.github.io/educational-redesign-aid/large/individual_assignments/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://tlc-uva.github.io/educational-redesign-aid/large/individual_assignments/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>What to do</title>
       <link>https://tlc-uva.github.io/educational-redesign-aid/large/individual_assignments/what/</link>
@@ -14,15 +18,6 @@
       
       <guid>https://tlc-uva.github.io/educational-redesign-aid/large/individual_assignments/what/</guid>
       <description>Appropriate assignments depend on a range of factors, including the subject matter, content complexity, course level and the number of students enrolled. There are many options to consider, such as short response papers, quizzes, adjusted field work and problem solving assignments. The same goes for assessment formats. Typically, they include essays, reports, presentations, skills tests, open-ended or multiple choice exams. We recommend that you review our Assessments Documentation to learn more about the digital varieties for each of the assignment and assessment options, and then determine what is most appropriate for your course.</description>
-    </item>
-    
-    <item>
-      <title>Tools to use</title>
-      <link>https://tlc-uva.github.io/educational-redesign-aid/large/individual_assignments/tools/</link>
-      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
-      
-      <guid>https://tlc-uva.github.io/educational-redesign-aid/large/individual_assignments/tools/</guid>
-      <description>UvA Assessment Documentation - Online support for UvA lecturers on taking assignments and assessments online.  Instructions &amp; Download   Find out more here.   Canvas Assignments - Online tool for submission and online grading of assignments.  Instructions &amp; Download   Here are the instructions to set up an assignment in Canvas.   Canvas Rubrics - Online grading grid used with a Canvas Assignment. Helps to grade faster and more consistently.</description>
     </item>
     
     <item>

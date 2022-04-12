@@ -6,7 +6,11 @@
     <description>Recent content in Assessment on Educational Redesign Aid</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate><atom:link href="https://tlc-uva.github.io/educational-redesign-aid/large/assessment/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://tlc-uva.github.io/educational-redesign-aid/large/assessment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>What to do</title>
       <link>https://tlc-uva.github.io/educational-redesign-aid/large/assessment/what/</link>
@@ -14,15 +18,6 @@
       
       <guid>https://tlc-uva.github.io/educational-redesign-aid/large/assessment/what/</guid>
       <description>Appropriate assessment formats depend on a range of factors, including the subject matter, content complexity, course level and the number of students enrolled. Typically, they include essays, reports, presentations, skills tests, open-ended or multiple choice exams. We recommend that you review our Assessments Documentation to learn more about the digital varieties for each of the assignment and assessment options, and then determine what is most appropriate for your course. Here, you can also find information on when to run changes by your exam committee and how/when to get your ICTO support team involved.</description>
-    </item>
-    
-    <item>
-      <title>Tools to use</title>
-      <link>https://tlc-uva.github.io/educational-redesign-aid/large/assessment/tools/</link>
-      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
-      
-      <guid>https://tlc-uva.github.io/educational-redesign-aid/large/assessment/tools/</guid>
-      <description>UvA Assessment Documentation - Online support for UvA lecturers on taking assignments and assessments online.  Instructions &amp; Download   Find out more here.   Canvas assessments - Online tool for submission and online grading of assessments.  Instructions &amp; Download   Here are the instructions to set up an assessment in Canvas.   Canvas Rubrics - Online grading grid used with a Canvas assessment. Helps to grade faster and more consistently.</description>
     </item>
     
     <item>

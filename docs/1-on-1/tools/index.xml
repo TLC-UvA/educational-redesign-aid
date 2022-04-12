@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools to use on Educational Redesign Aid</title>
+    <link>https://tlc-uva.github.io/educational-redesign-aid/1-on-1/tools/</link>
+    <description>Recent content in Tools to use on Educational Redesign Aid</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://tlc-uva.github.io/educational-redesign-aid/1-on-1/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UvA Weblectures Link-generator</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/1-on-1/tools/uva_weblectures_link-generator/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/1-on-1/tools/uva_weblectures_link-generator/</guid>
+      <description>You can find the tool here. You can watch a 5 min video tutorial here (made by Fam te Poel, UvA TLC).</description>
+    </item>
+    
+  </channel>
+</rss>

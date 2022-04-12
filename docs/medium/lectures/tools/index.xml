@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools to use on Educational Redesign Aid</title>
+    <link>https://tlc-uva.github.io/educational-redesign-aid/medium/lectures/tools/</link>
+    <description>Recent content in Tools to use on Educational Redesign Aid</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://tlc-uva.github.io/educational-redesign-aid/medium/lectures/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UvA Weblectures Link-generator</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/medium/lectures/tools/uva_weblectures_link-generator/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/medium/lectures/tools/uva_weblectures_link-generator/</guid>
+      <description>You can find the tool here. You can watch a 5 min video tutorial here (made by Fam te Poel, UvA TLC).</description>
+    </item>
+    
+    <item>
+      <title>CANVAS discussion board</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/medium/lectures/tools/canvas_discussion_board/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/medium/lectures/tools/canvas_discussion_board/</guid>
+      <description>Check out the instructions on how to set up discussions or a Live Chat in Canvas.</description>
+    </item>
+    
+    <item>
+      <title>MS 365 Powerpoint</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/medium/lectures/tools/ms_365_powerpoint/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/medium/lectures/tools/ms_365_powerpoint/</guid>
+      <description>Check out these instruction videos on how to record and save your presentation and how to upload it on Canvas made by Fam te Poel (UvA TLC). Mac users can only record audio, not video. If you prefer to use video with your presentation we suggest you use Kaltura Capture (see below).</description>
+    </item>
+    
+    <item>
+      <title>Feedback Fruits</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/medium/lectures/tools/feedback_fruits/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/medium/lectures/tools/feedback_fruits/</guid>
+      <description>First, check with your ICTO team if your department uses Feedback Fruits. Check out the instruction video and example made by Fam te Poel (UvA TLC).</description>
+    </item>
+    
+    <item>
+      <title>ZOOM</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/medium/lectures/tools/zoom/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/medium/lectures/tools/zoom/</guid>
+      <description>Check out short instruction videos on how to schedule a Zoom session in Canvas, the basics of Zoom and using Zoom polls (made by Fam te Poel, UvA TLC). Full instructions can be found here. And yes, there are even pdfs, on Zoom etiquette for students and how to monitor Zoom attendance.</description>
+    </item>
+    
+    <item>
+      <title>Kaltura</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/medium/lectures/tools/kaltura/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/medium/lectures/tools/kaltura/</guid>
+      <description>Check out these instruction videos about quickly creating video content (express capture), pre-recording lectures, (Kaltura capture) and how to embed this content in Canvas, made by Fam te Poel (UvA TLC).</description>
+    </item>
+    
+  </channel>
+</rss>

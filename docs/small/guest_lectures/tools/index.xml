@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools to use on Educational Redesign Aid</title>
+    <link>https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/tools/</link>
+    <description>Recent content in Tools to use on Educational Redesign Aid</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ZOOM</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/tools/zoom/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/tools/zoom/</guid>
+      <description>Check out short instruction videos on how to schedule a Zoom session in Canvas, the basics of Zoom and using Zoom polls (made by Fam te Poel, UvA TLC). Full instructions can be found here. And yes, there are even pdfs, on Zoom etiquette for students and how to monitor Zoom attendance.</description>
+    </item>
+    
+    <item>
+      <title>CANVAS discussion board</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/tools/canvas_discussion_board/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/tools/canvas_discussion_board/</guid>
+      <description>Check out the instructions on how to set up discussions in Canvas.</description>
+    </item>
+    
+    <item>
+      <title>Feedback Fruits</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/tools/feedback_fruits/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/tools/feedback_fruits/</guid>
+      <description>First, check with your ICTO team if your department uses Feedback Fruits. Check out the instruction video and example made by Fam te Poel (UvA TLC).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,1 +1,0 @@
-../../medium/lectures/tools.md

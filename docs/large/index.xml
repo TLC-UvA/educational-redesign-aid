@@ -6,6 +6,10 @@
     <description>Recent content in Large course on Educational Redesign Aid</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate><atom:link href="https://tlc-uva.github.io/educational-redesign-aid/large/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://tlc-uva.github.io/educational-redesign-aid/large/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>

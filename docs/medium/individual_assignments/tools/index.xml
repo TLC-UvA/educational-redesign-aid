@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools to use on Educational Redesign Aid</title>
+    <link>https://tlc-uva.github.io/educational-redesign-aid/medium/individual_assignments/tools/</link>
+    <description>Recent content in Tools to use on Educational Redesign Aid</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://tlc-uva.github.io/educational-redesign-aid/medium/individual_assignments/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UvA Assessment Documentation</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/medium/individual_assignments/tools/uva_assessment_documentation/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/medium/individual_assignments/tools/uva_assessment_documentation/</guid>
+      <description>Find out more here.</description>
+    </item>
+    
+    <item>
+      <title>Canvas Assignments</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/medium/individual_assignments/tools/canvas_assignments/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/medium/individual_assignments/tools/canvas_assignments/</guid>
+      <description>Here are the instructions to set up an assignment in Canvas.</description>
+    </item>
+    
+    <item>
+      <title>Canvas Rubrics</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/medium/individual_assignments/tools/canvas_rubrics/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/medium/individual_assignments/tools/canvas_rubrics/</guid>
+      <description>Here are the instructions on how to set up a rubric up and how to use rubrics for grading submissions.</description>
+    </item>
+    
+    <item>
+      <title>SpeedGrader in Canvas</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/medium/individual_assignments/tools/speedgrader_in_canvas/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/medium/individual_assignments/tools/speedgrader_in_canvas/</guid>
+      <description>This built-in tool allows you to highlight elements in the text, provide inline written comments, write overall comments and you can even leave a voice or video recording. Find out more here.</description>
+    </item>
+    
+    <item>
+      <title>Feedback Fruits</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/medium/individual_assignments/tools/feedback_fruits/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/medium/individual_assignments/tools/feedback_fruits/</guid>
+      <description>First, check with your ICTO team if your department uses Feedback Fruits. Here are the instructions to use the peer-feedback functionality.</description>
+    </item>
+    
+  </channel>
+</rss>

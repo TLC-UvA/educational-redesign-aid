@@ -6,6 +6,7 @@ date: 2020-07-31T11:05:44+02:00
 expandable: true
 instructions: false
 weight: 3
+category: "section"
 ---
 
 With large groups, a live Zoom session is less feasible. Students might encounter technical problems which prevent them from (completely) following a live session and there are limits to the number of students that can participate in a Zoom-session. Therefore pre-recorded lectures are the way to go.

@@ -1,1 +1,0 @@
-../../medium/guest_lectures/tools.md

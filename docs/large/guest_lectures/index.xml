@@ -6,7 +6,11 @@
     <description>Recent content in Guest Lectures on Educational Redesign Aid</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate><atom:link href="https://tlc-uva.github.io/educational-redesign-aid/large/guest_lectures/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://tlc-uva.github.io/educational-redesign-aid/large/guest_lectures/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>What to do</title>
       <link>https://tlc-uva.github.io/educational-redesign-aid/large/guest_lectures/what/</link>
@@ -14,15 +18,6 @@
       
       <guid>https://tlc-uva.github.io/educational-redesign-aid/large/guest_lectures/what/</guid>
       <description>Record a one-on-one interview using Zoom. Aim for a maximum interview of 30-45 minutes. If possible, cut the recording in segments based on (sub)topics of 15 min max. Upload the interview to Canvas for viewing as part of structured self-study. Add clear instructions for your students. For example, indicate when students should watch it, add a question, what to look for and/or and what they should be able to do or know afterwards.</description>
-    </item>
-    
-    <item>
-      <title>Tools to use</title>
-      <link>https://tlc-uva.github.io/educational-redesign-aid/large/guest_lectures/tools/</link>
-      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
-      
-      <guid>https://tlc-uva.github.io/educational-redesign-aid/large/guest_lectures/tools/</guid>
-      <description>ZOOM - Online communication tool to record your interview.  Instructions &amp; Download   Check out a short instruction video on the basics of Zoom (made by Fam te Poel, UvA TLC). Full instructions can be found here.   CANVAS discussion board - Online forum tool to facilitate discussions.  Instructions &amp; Download   Check out the instructions on how to set up discussions in Canvas.   Feedback Fruits - Online presentation tool with interactive quizzes.</description>
     </item>
     
     <item>

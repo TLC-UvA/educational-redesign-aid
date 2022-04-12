@@ -54,8 +54,6 @@ defaultContentLanguage = "en"
     languageName = "English"
     title = "Educational Redesign Aid"
     weight = 1
-    [languages.en.params]
-      color = "#f00"
   [languages.nl]
     languageName = "Nederlands"
     title = "Educational Redesign Aid"

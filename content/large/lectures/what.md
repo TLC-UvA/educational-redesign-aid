@@ -6,6 +6,7 @@ date: 2020-07-31T11:05:44+02:00
 expandable: true
 instructions: false
 weight: 1
+category: "section"
 ---
 
 Provide students with lectures for viewing on Canvas. You have two options here: **pre-recorded** or **new recording**. Choose pre-recorded (i.e., using existing recordings from lecture hall) if the technical quality is good enough and if the content still meets your goal. Otherwise, opt for a new recording. For both, you want to focus on smaller segments as opposed to one lengthy video. *Aim for a maximum of 15-minutes per video and 45 minutes of total content to replace a 2-hour lecture*. This may be difficult, we know. Don't feel bad if you end up with longer videos.

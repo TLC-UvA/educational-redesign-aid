@@ -6,7 +6,11 @@
     <description>Recent content in Lectures on Educational Redesign Aid</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate><atom:link href="https://tlc-uva.github.io/educational-redesign-aid/medium/lectures/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://tlc-uva.github.io/educational-redesign-aid/medium/lectures/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>What to do</title>
       <link>https://tlc-uva.github.io/educational-redesign-aid/medium/lectures/what/</link>
@@ -23,7 +27,7 @@ Also, we recommend that you use your first lecture to explain to students what y
       <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
       
       <guid>https://tlc-uva.github.io/educational-redesign-aid/medium/lectures/tools/</guid>
-      <description>UvA Weblectures Link-generator - Provides a tool to select segments in weblectures.  Instructions &amp; Download   You can find the tool here. You can watch a 5 min video tutorial here (made by Fam te Poel, UvA TLC).   CANVAS discussion board - Online forum tool to facilitate discussions.  Instructions &amp; Download   Check out the instructions on how to set up discussions or a Live Chat in Canvas.</description>
+      <description>UvA Weblectures Link-generator -Provides a tool to select segments in weblectures.Instructions &amp; DownloadYou can find the tool here. You can watch a 5 min video tutorial here (made by Fam te Poel, UvA TLC).CANVAS discussion board -Online forum tool to facilitate discussions.Instructions &amp; DownloadCheck out the instructions on how to set up discussions or a Live Chat in Canvas.</description>
     </item>
     
     <item>

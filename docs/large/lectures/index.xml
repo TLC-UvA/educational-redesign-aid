@@ -6,7 +6,11 @@
     <description>Recent content in Lectures on Educational Redesign Aid</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate><atom:link href="https://tlc-uva.github.io/educational-redesign-aid/large/lectures/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://tlc-uva.github.io/educational-redesign-aid/large/lectures/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>What to do</title>
       <link>https://tlc-uva.github.io/educational-redesign-aid/large/lectures/what/</link>
@@ -14,15 +18,6 @@
       
       <guid>https://tlc-uva.github.io/educational-redesign-aid/large/lectures/what/</guid>
       <description>Provide students with lectures for viewing on Canvas. You have two options here: pre-recorded or new recording. Choose pre-recorded (i.e., using existing recordings from lecture hall) if the technical quality is good enough and if the content still meets your goal. Otherwise, opt for a new recording. For both, you want to focus on smaller segments as opposed to one lengthy video. Aim for a maximum of 15-minutes per video and 45 minutes of total content to replace a 2-hour lecture.</description>
-    </item>
-    
-    <item>
-      <title>Tools to use</title>
-      <link>https://tlc-uva.github.io/educational-redesign-aid/large/lectures/tools/</link>
-      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
-      
-      <guid>https://tlc-uva.github.io/educational-redesign-aid/large/lectures/tools/</guid>
-      <description>UvA Weblectures Link-generator - Provides a tool to select segments in weblectures.  Instructions &amp; Download   You can find the tool here. You can watch a 5 min video tutorial here (made by Fam te Poel, UvA TLC).   CANVAS discussion board - Online forum tool to facilitate discussions.  Instructions &amp; Download   Check out the instructions on how to set up discussions or a Live Chat in Canvas.</description>
     </item>
     
     <item>
