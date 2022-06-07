@@ -1,0 +1,3 @@
+[submodule "themes/TLC-UVA-theme"]
+	path = themes/TLC-UVA-theme
+	url = git@github.com:IvandeWolf/TLC-UvA-theme.git
