@@ -1,45 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Educational Redesign Aid</title>
+    <title>Workgroups on Educational Redesign Aid</title>
     <link>https://tlc-uva.github.io/educational-redesign-aid/small/workgroups/</link>
-    <description>Recent content on Educational Redesign Aid</description>
+    <description>Recent content in Workgroups on Educational Redesign Aid</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://tlc-uva.github.io/educational-redesign-aid/small/workgroups/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate><atom:link href="https://tlc-uva.github.io/educational-redesign-aid/small/workgroups/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://tlc-uva.github.io/educational-redesign-aid/small/workgroups/tips/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tlc-uva.github.io/educational-redesign-aid/small/workgroups/tips/</guid>
-      <description>../../large/workgroups/tips.md</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://tlc-uva.github.io/educational-redesign-aid/small/workgroups/tools/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tlc-uva.github.io/educational-redesign-aid/small/workgroups/tools/</guid>
-      <description>../../large/workgroups/tools.md</description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>What to do</title>
       <link>https://tlc-uva.github.io/educational-redesign-aid/small/workgroups/what/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
       
       <guid>https://tlc-uva.github.io/educational-redesign-aid/small/workgroups/what/</guid>
-      <description>../../large/workgroups/what.md</description>
+      <description>We recommend a mixed approach for workgroups (pre-recorded + live) so that your live portions capitalize on opportunities for student engagement and interaction. We aim for a total of 90-minutes of content time (plus breaks).
+ Pre-record your instructions and short presentation with Powerpoint (10 minutes). Upload this to Canvas for students to view prior to the seminar. You can also explain what you expect students to do in the breakout rooms and what they should deliver at the end (they can’t see your instructional slides in a breakout room).</description>
     </item>
     
     <item>
-      <title></title>
+      <title>Tools to use</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/small/workgroups/tools/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/small/workgroups/tools/</guid>
+      <description>MS 365 Powerpoint - Presentation tool to record your instructions.  Instructions &amp; Download   Check out these instruction videos on how to record and save your presentation and how to upload it on Canvas made by Fam te Poel (UvA TLC). Mac users can only record audio, not video. If you prefer to use video with your presentation we suggest you use Kaltura Capture (see below).   ZOOM with Breakout Rooms - Online communication tool to provide live (sub)group sessions.</description>
+    </item>
+    
+    <item>
+      <title>Why do this</title>
       <link>https://tlc-uva.github.io/educational-redesign-aid/small/workgroups/why/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
       
       <guid>https://tlc-uva.github.io/educational-redesign-aid/small/workgroups/why/</guid>
-      <description>../../large/workgroups/why.md</description>
+      <description>Pre-recording your instructions ensures that you don’t have to spend much time on instruction during the live session in Zoom and, instead, students can spend more time working on an assignment in the breakout rooms, and you have more time to provide feedback.
+Breakout Rooms can be very effective to engage, practice, discuss, and collaborate in subgroups. As with offline settings, you can visit each group to see how they are doing and to make sure they are still on task.</description>
+    </item>
+    
+    <item>
+      <title>Tips</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/small/workgroups/tips/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/small/workgroups/tips/</guid>
+      <description>Add a personal start of the week (video) message with Kaltura in Canvas in which you announce this week’s workgroup and link it to the previous week. You can also use this to address questions posted by students on Canvas after the last workgroup. Have students introduce themselves on the Canvas Discussion Board. This saves you time during the live Zoom session. You can let them be creative and use their favorite social media (e.</description>
     </item>
     
   </channel>

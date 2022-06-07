@@ -1,45 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Educational Redesign Aid</title>
+    <title>Guest Lectures on Educational Redesign Aid</title>
     <link>https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/</link>
-    <description>Recent content on Educational Redesign Aid</description>
+    <description>Recent content in Guest Lectures on Educational Redesign Aid</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 Jul 2020 11:05:44 +0200</lastBuildDate><atom:link href="https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/tips/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/tips/</guid>
-      <description>../../medium/guest_lectures/tips.md</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/tools/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/tools/</guid>
-      <description>../../medium/guest_lectures/tools.md</description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>What to do</title>
       <link>https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/what/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
       
       <guid>https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/what/</guid>
-      <description>../../medium/guest_lectures/what.md</description>
+      <description>Record a short one-on-one introduction interview using Zoom. Aim for 15-30 min max. Upload the interview to Canvas for viewing as part of structured self-study: Provide a Discussion Board for students to add comments and ask questions after viewing. Next, invite students to upvote their favorite questions and comments. Schedule a live Zoom session in Canvas for an interactive Q&amp;amp;A session of 90 min max, relying on the content from the Discussion Board.</description>
     </item>
     
     <item>
-      <title></title>
+      <title>Tools to use</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/tools/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/tools/</guid>
+      <description>ZOOM - Online communication tool to record your interview.  Instructions &amp; Download   Check out short instruction videos on how to schedule a Zoom session in Canvas, the basics of Zoom and using Zoom polls (made by Fam te Poel, UvA TLC). Full instructions can be found here. And yes, there are even pdfs, on Zoom etiquette for students and how to monitor Zoom attendance.   CANVAS discussion board - Online forum tool to facilitate discussions.</description>
+    </item>
+    
+    <item>
+      <title>Why do this</title>
       <link>https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/why/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
       
       <guid>https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/why/</guid>
-      <description>../../medium/guest_lectures/why.md</description>
+      <description>Interaction through an online plenary Zoom session is often more difficult to achieve. Students tend to fall back into ‘watching tv mode’ (passive processing). By raising and upvoting questions prior to the interactive session, your students are more engaged and in ‘learning mode’ (active processing). You can augment this with Zoom polls to provide your guest with the opportunity to get to know the audience and interact with them in a fast and efficient way.</description>
+    </item>
+    
+    <item>
+      <title>Tips</title>
+      <link>https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/tips/</link>
+      <pubDate>Fri, 31 Jul 2020 11:05:44 +0200</pubDate>
+      
+      <guid>https://tlc-uva.github.io/educational-redesign-aid/small/guest_lectures/tips/</guid>
+      <description>Add a cliff-hanger to the pre-recorded one-on-one interview. For example, if your guest has a real life example, don’t tell the end of the story yet until the live session. Use the Canvas Discussion Board to ask students what they would do next, before your guest continues the story. Add a short quiz to the introduction video with Feedback Fruits. For example, to assess students’ understanding of the subject matter, to have your guest raise a question, or to have students think about what they would do in a real life example.</description>
     </item>
     
   </channel>
